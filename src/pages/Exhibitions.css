@@ -1,0 +1,1041 @@
+/* Exhibitions Page Styles */
+.exhibitions-page {
+  position: relative;
+  background:
+    radial-gradient(circle at 86% 12%, rgba(212, 175, 55, 0.1), transparent 32%),
+    radial-gradient(circle at 16% 72%, rgba(163, 112, 62, 0.1), transparent 38%),
+    var(--bg-primary);
+  min-height: 100vh;
+}
+
+.exhibitions-page .exhibitions-split {
+  --exhibitions-split-accent: rgba(212, 175, 55, 0.24);
+  --exhibitions-split-soft: rgba(255, 255, 255, 0.13);
+  position: relative;
+  isolation: isolate;
+}
+
+.exhibitions-page .exhibitions-split::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1280px, calc(100% - 2rem));
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--exhibitions-split-soft) 16%,
+    var(--exhibitions-split-accent) 50%,
+    var(--exhibitions-split-soft) 84%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.exhibitions-page .exhibitions-split::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  width: min(500px, 64%);
+  height: 120px;
+  background: radial-gradient(ellipse at center, var(--exhibitions-split-accent) 0%, transparent 72%);
+  opacity: 0.42;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.exhibitions-page .exhibitions-split > * {
+  position: relative;
+  z-index: 2;
+}
+
+.exhibitions-page .exhibitions-split--halls {
+  --exhibitions-split-accent: rgba(120, 147, 255, 0.2);
+}
+
+.exhibitions-page .exhibitions-split--tips {
+  --exhibitions-split-accent: rgba(212, 175, 55, 0.2);
+}
+
+.exhibitions-page .exhibitions-split--cta {
+  --exhibitions-split-accent: rgba(120, 147, 255, 0.2);
+}
+
+.exhibitions-page .exhibitions-split--details {
+  --exhibitions-split-accent: rgba(74, 180, 146, 0.2);
+}
+
+.exhibitions-page .exhibitions-split--experience {
+  --exhibitions-split-accent: rgba(74, 126, 180, 0.24);
+}
+
+.exhibitions-page .exhibitions-split--faq {
+  --exhibitions-split-accent: rgba(184, 129, 81, 0.24);
+}
+
+/* Hero Section */
+.exhibitions-hero {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.exhibitions-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.exhibitions-hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.exhibitions-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 11, 12, 0.55);
+}
+
+.exhibitions-hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  padding: 0 2rem;
+}
+
+.exhibitions-hero-label {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.exhibitions-hero-content h1 {
+  margin-bottom: 1.5rem;
+}
+
+.exhibitions-hero-description {
+  font-size: clamp(16px, 1.4vw, 20px);
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.hero-name-variants {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem;
+}
+
+.hero-name-chip {
+  padding: 0.4rem 0.72rem;
+  border: 1px solid rgba(212, 175, 55, 0.36);
+  background: rgba(11, 11, 12, 0.35);
+  color: var(--accent-light);
+  font-size: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Featured Section */
+.featured-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 80vh;
+  background: var(--bg-primary);
+}
+
+.featured-content {
+  padding: 8vh 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.38rem 0.78rem;
+  color: var(--accent-light);
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 55, 0.36);
+  background: rgba(212, 175, 55, 0.12);
+  margin-bottom: 1.3rem;
+}
+
+.featured-content h2 {
+  margin-bottom: 2rem;
+}
+
+.featured-description {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 1.1rem;
+}
+
+.featured-description--secondary {
+  margin-bottom: 1.5rem;
+  font-size: 15px;
+}
+
+.featured-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.featured-highlight-pill {
+  font-size: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  padding: 0.4rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.featured-stats {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.featured-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.featured-stat-value {
+  font-family: 'Sora', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.featured-stat-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.featured-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-image-main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-image-strip {
+  position: absolute;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.featured-thumb {
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(11, 11, 12, 0.64);
+  overflow: hidden;
+}
+
+.featured-thumb img {
+  width: 100%;
+  height: 88px;
+  object-fit: cover;
+}
+
+.featured-thumb figcaption {
+  padding: 0.52rem 0.62rem 0.62rem;
+  font-size: 11px;
+  color: var(--text-primary);
+  line-height: 1.45;
+}
+
+/* Halls Section */
+.halls-section {
+  padding: 12vh 6vw;
+  background: var(--bg-secondary);
+}
+
+.halls-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.halls-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.halls-header::after,
+.details-header::after,
+.experience-header::after,
+.faq-header::after,
+.tips-header::after,
+.exhibitions-cta-content::before {
+  content: '';
+  display: block;
+  width: clamp(94px, 12vw, 170px);
+  height: 2px;
+  margin: 1.1rem auto 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(212, 175, 55, 0.25) 20%,
+    rgba(212, 175, 55, 0.88) 50%,
+    rgba(212, 175, 55, 0.25) 80%,
+    transparent 100%
+  );
+}
+
+.exhibitions-cta-content::before {
+  margin-bottom: 1.1rem;
+}
+
+.halls-header h2 {
+  margin-top: 1rem;
+}
+
+.halls-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.hall-card {
+  background: var(--bg-primary);
+  border: 1px solid var(--hairline);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.hall-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.hall-card.active {
+  border-color: var(--accent);
+  grid-column: span 2;
+}
+
+.hall-image {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.hall-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.hall-card:hover .hall-image img {
+  transform: scale(1.05);
+}
+
+.hall-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 50%, rgba(11, 11, 12, 0.8));
+}
+
+.hall-content {
+  padding: 2rem;
+}
+
+.hall-subtitle {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.hall-title {
+  font-family: 'Sora', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.hall-description {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.hall-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.hall-details.expanded {
+  max-height: 620px;
+  opacity: 1;
+}
+
+.hall-highlights {
+  margin-bottom: 1.5rem;
+}
+
+.hall-highlights h4 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.highlights-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.highlight-tag {
+  padding: 0.4rem 0.8rem;
+  background: rgba(201, 162, 39, 0.1);
+  border: 1px solid rgba(201, 162, 39, 0.3);
+  font-size: 12px;
+  color: var(--accent);
+}
+
+.hall-story {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.hall-facts-list {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.hall-fact-item {
+  margin: 0;
+  padding: 0.55rem 0.72rem;
+  border-inline-start: 2px solid rgba(201, 162, 39, 0.7);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.hall-meta {
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.hall-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.hall-meta-item svg {
+  color: var(--accent);
+}
+
+.hall-expand-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.hall-expand-btn:hover {
+  color: var(--text-primary);
+}
+
+/* Details Section */
+.details-section {
+  padding: 12vh 6vw;
+  background: linear-gradient(to bottom, var(--bg-secondary), var(--bg-primary));
+}
+
+.details-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.details-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.details-header h2 {
+  margin-top: 1rem;
+}
+
+.details-intro {
+  max-width: 860px;
+  margin: 1.5rem auto 0;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.details-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 2rem;
+}
+
+.details-narrative {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--hairline);
+  padding: 2rem;
+}
+
+.details-narrative p {
+  margin: 0 0 1rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.details-points {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1.4rem;
+}
+
+.details-point {
+  margin: 0;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid rgba(74, 180, 146, 0.32);
+  background: rgba(74, 180, 146, 0.07);
+  color: var(--text-primary);
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.details-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.story-card {
+  border: 1px solid var(--hairline);
+  background: var(--bg-secondary);
+  overflow: hidden;
+}
+
+.story-card-image {
+  height: 190px;
+  overflow: hidden;
+}
+
+.story-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.story-card:hover .story-card-image img {
+  transform: scale(1.04);
+}
+
+.story-card-content {
+  padding: 1rem;
+}
+
+.story-card-title {
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  color: var(--text-primary);
+  margin: 0 0 0.6rem;
+}
+
+.story-card-text {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Experience Section */
+.experience-section {
+  padding: 12vh 6vw;
+  background: var(--bg-primary);
+}
+
+.experience-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.experience-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.experience-header h2 {
+  margin-top: 1rem;
+}
+
+.experience-intro {
+  max-width: 860px;
+  margin: 1.4rem auto 0;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.experience-card {
+  border: 1px solid var(--hairline);
+  background:
+    linear-gradient(180deg, rgba(74, 126, 180, 0.09) 0%, rgba(255, 255, 255, 0.02) 48%),
+    var(--bg-secondary);
+  padding: 1.4rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(74, 126, 180, 0.65);
+}
+
+.experience-number {
+  display: inline-block;
+  font-family: 'Sora', sans-serif;
+  font-size: 34px;
+  line-height: 1;
+  color: rgba(212, 175, 55, 0.85);
+  margin-bottom: 0.65rem;
+}
+
+.experience-mode {
+  margin: 0 0 0.55rem;
+  font-size: 11px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+}
+
+.experience-title {
+  margin: 0 0 0.7rem;
+  font-family: 'Sora', sans-serif;
+  font-size: 20px;
+  color: var(--text-primary);
+}
+
+.experience-summary {
+  margin: 0 0 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.72;
+  font-size: 14px;
+}
+
+.experience-meta {
+  display: grid;
+  gap: 0.42rem;
+  margin-bottom: 0.95rem;
+}
+
+.experience-meta p {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.experience-stops {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.experience-stop {
+  padding: 0.36rem 0.64rem;
+  font-size: 12px;
+  color: var(--text-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 10vh 6vw 12vh;
+  background: linear-gradient(to bottom, var(--bg-primary), var(--bg-secondary));
+}
+
+.faq-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.faq-header {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.faq-header h2 {
+  margin-top: 1rem;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.faq-card {
+  border: 1px solid var(--hairline);
+  background: var(--bg-primary);
+  padding: 1.25rem;
+}
+
+.faq-question {
+  margin: 0 0 0.65rem;
+  font-size: 19px;
+  color: var(--text-primary);
+  font-family: 'Sora', sans-serif;
+}
+
+.faq-answer {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: 1.74;
+  font-size: 14px;
+}
+
+/* Tips Section */
+.tips-section {
+  padding: 12vh 6vw;
+  background: var(--bg-primary);
+}
+
+.tips-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tips-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.tips-header h2 {
+  margin-top: 1rem;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.tip-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--hairline);
+  padding: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.tip-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.tip-number {
+  font-family: 'Sora', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.tip-title {
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.tip-text {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* CTA Section */
+.exhibitions-cta-section {
+  padding: 10vh 6vw;
+  background: linear-gradient(to bottom, var(--bg-secondary), var(--bg-primary));
+}
+
+.exhibitions-cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.exhibitions-cta-content h2 {
+  margin-bottom: 1.5rem;
+}
+
+.exhibitions-cta-text {
+  font-size: 17px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .featured-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .featured-image {
+    height: 50vh;
+    order: -1;
+  }
+  
+  .halls-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .hall-card.active {
+    grid-column: span 1;
+  }
+  
+  .tips-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .details-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .exhibitions-page .exhibitions-split::before {
+    width: calc(100% - 1rem);
+  }
+
+  .exhibitions-page .exhibitions-split::after {
+    width: min(360px, 72%);
+    height: 88px;
+    opacity: 0.32;
+  }
+
+  .featured-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .featured-image-strip {
+    position: static;
+    padding: 0.85rem;
+    background: rgba(11, 11, 12, 0.68);
+  }
+  
+  .tips-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .hall-meta {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .details-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile refinements */
+@media (max-width: 768px) {
+  .exhibitions-page .exhibitions-hero {
+    height: auto;
+    min-height: 65svh;
+    padding: 6.5rem 1rem 2rem;
+  }
+
+  .exhibitions-page .exhibitions-hero-content {
+    padding: 0 0.25rem;
+  }
+
+  .exhibitions-page .featured-section {
+    min-height: auto;
+  }
+
+  .exhibitions-page .featured-content,
+  .exhibitions-page .halls-section,
+  .exhibitions-page .details-section,
+  .exhibitions-page .experience-section,
+  .exhibitions-page .faq-section,
+  .exhibitions-page .tips-section,
+  .exhibitions-page .exhibitions-cta-section {
+    padding: 72px 1rem;
+  }
+
+  .exhibitions-page .featured-stats {
+    gap: 1rem;
+    padding: 1.25rem 0;
+  }
+
+  .exhibitions-page .featured-stat-value {
+    font-size: 30px;
+  }
+
+  .exhibitions-page .halls-header,
+  .exhibitions-page .tips-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .exhibitions-page .hall-image {
+    height: 220px;
+  }
+
+  .exhibitions-page .hall-content {
+    padding: 1.25rem;
+  }
+
+  .exhibitions-page .hall-details.expanded {
+    max-height: 860px;
+  }
+
+  .exhibitions-page .details-header,
+  .exhibitions-page .experience-header,
+  .exhibitions-page .faq-header,
+  .exhibitions-page .tips-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .exhibitions-page .details-narrative {
+    padding: 1.25rem;
+  }
+
+  .exhibitions-page .experience-card,
+  .exhibitions-page .faq-card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .exhibitions-page .exhibitions-split::before {
+    width: calc(100% - 0.75rem);
+  }
+
+  .exhibitions-page .exhibitions-split::after {
+    height: 70px;
+    opacity: 0.24;
+  }
+
+  .exhibitions-page .featured-content,
+  .exhibitions-page .halls-section,
+  .exhibitions-page .details-section,
+  .exhibitions-page .experience-section,
+  .exhibitions-page .faq-section,
+  .exhibitions-page .tips-section,
+  .exhibitions-page .exhibitions-cta-section {
+    padding: 60px 1rem;
+  }
+
+  .exhibitions-page .hall-title {
+    font-size: 20px;
+  }
+
+  .exhibitions-page .hall-description,
+  .exhibitions-page .tip-text,
+  .exhibitions-page .exhibitions-cta-text {
+    font-size: 14px;
+  }
+
+  .exhibitions-page .tip-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .exhibitions-page .story-card-title {
+    font-size: 16px;
+  }
+
+  .exhibitions-page .faq-question {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,1727 @@
+{
+  "common": {
+    "language": "Language",
+    "search": "Search",
+    "tickets": "Tickets",
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "showLess": "Show Less",
+    "back": "Back",
+    "continue": "Continue",
+    "completeBooking": "Complete Booking",
+    "bookingConfirmed": "Booking confirmed!"
+  },
+  "nav": {
+    "logoMain": "Grand Egyptian",
+    "logoSub": "Museum",
+    "home": "Home",
+    "about": "Museum Story",
+    "exhibitions": "Museum Journeys",
+    "gallery": "Gallery",
+    "videos": "Videos",
+    "atlas": "Museum Atlas",
+    "visit": "Visit"
+  },
+  "home": {
+    "hero": {
+      "badge": "Opening 2025",
+      "scrollDown": "Scroll Down",
+      "slides": {
+        "gem": {
+          "headline": "THE GRAND EGYPTIAN MUSEUM",
+          "subheadline": "Opening 2025 â€¢ Giza, Egypt",
+          "description": "From prehistory to the Greco-Roman era - experience the world's largest archaeological museum"
+        },
+        "tut": {
+          "headline": "TUTANKHAMUN'S TREASURES",
+          "subheadline": "5,398 Rare Artifacts",
+          "description": "For the first time in history, all treasures of the Golden King in one place"
+        },
+        "history": {
+          "headline": "7000 YEARS OF HISTORY",
+          "subheadline": "100,000 Artifacts",
+          "description": "A journey through time from the dawn of Egyptian civilization to the modern era"
+        }
+      },
+      "buttons": {
+        "bookTickets": "Book Tickets",
+        "exploreExhibitions": "Explore Exhibitions"
+      }
+    },
+    "stats": {
+      "artifacts": "Artifacts",
+      "tutItems": "Tutankhamun Items",
+      "galleries": "Galleries",
+      "area": "Square Meters"
+    },
+    "quickLinks": {
+      "bookTickets": "Book Tickets",
+      "planVisit": "Plan Visit",
+      "exhibitions": "Museum Journeys",
+      "groupTours": "Group Tours"
+    },
+    "features": {
+      "badge": "Why Choose Us",
+      "title": "A Unique Experience",
+      "items": {
+        "location": {
+          "title": "Unique Location",
+          "description": "Just 2 km from the Giza Pyramids with direct views of the monuments"
+        },
+        "history": {
+          "title": "Living History",
+          "description": "7000 years of Egyptian civilization in 50 interactive galleries"
+        },
+        "sustainable": {
+          "title": "Sustainable Design",
+          "description": "Solar panels, natural lighting, and eco-friendly systems"
+        },
+        "night": {
+          "title": "Night Experience",
+          "description": "Dramatic lighting and light shows during evening hours"
+        }
+      }
+    },
+    "highlights": {
+      "badge": "Must See",
+      "title": "Iconic Highlights",
+      "subtitle": "Discover the most extraordinary treasures awaiting you at the Grand Egyptian Museum",
+      "items": {
+        "mask": {
+          "title": "Tutankhamun's Mask",
+          "description": "The iconic golden mask of the boy king, crafted from 11kg of pure gold"
+        },
+        "obelisk": {
+          "title": "The Hanging Obelisk",
+          "description": "An engineering marvel - an 11-meter obelisk suspended in mid-air"
+        },
+        "staircase": {
+          "title": "The Grand Staircase",
+          "description": "87 statues of pharaohs and deities in a procession through time"
+        },
+        "ramesses": {
+          "title": "Ramesses II Colossus",
+          "description": "An 11-meter colossal statue welcoming visitors"
+        }
+      },
+      "learnMore": "Learn More"
+    },
+    "videoShowcase": {
+      "badge": "Watch Now",
+      "title": "Virtual Tour",
+      "subtitle": "Explore the museum from your home with our interactive virtual tour",
+      "cta": "Watch All Videos"
+    },
+    "visitInfo": {
+      "badge": "Plan Your Visit",
+      "title": "Visitor Information",
+      "cards": {
+        "hours": {
+          "title": "Opening Hours",
+          "main": "09:00 - 20:00",
+          "sub": "Daily",
+          "note": "Last entry: 18:00"
+        },
+        "location": {
+          "title": "Location",
+          "main": "Giza, Egypt",
+          "sub": "2 km from Pyramids",
+          "note": "Alexandria Desert Road"
+        },
+        "prices": {
+          "title": "Ticket Prices",
+          "main": "400 EGP",
+          "sub": "Adults",
+          "note": "Discounts for students & seniors"
+        },
+        "time": {
+          "title": "Recommended Time",
+          "main": "4-5 Hours",
+          "sub": "For full exploration",
+          "note": "Full day for enthusiasts"
+        }
+      },
+      "actions": {
+        "bookNow": "Book Now",
+        "moreInfo": "More Information"
+      }
+    },
+    "newsletter": {
+      "title": "Join Our Newsletter",
+      "subtitle": "Be the first to know about opening dates, special exhibitions, and exclusive events",
+      "placeholder": "Enter your email",
+      "cta": "Subscribe"
+    },
+    "artifacts": {
+      "badge": "Treasures",
+      "title": "Featured Masterpieces",
+      "subtitle": "Explore the most extraordinary artifacts from 7,000 years of Egyptian civilization",
+      "items": {
+        "tutMask": {
+          "title": "Tutankhamun's Golden Mask",
+          "period": "New Kingdom, 18th Dynasty",
+          "year": "1332 BCE",
+          "material": "24-karat gold, semi-precious stones",
+          "weight": "11 kg",
+          "description": "The most iconic symbol of ancient Egypt - a masterpiece of royal craftsmanship featuring inlaid lapis lazuli, carnelian, and colored glass. The double crown represents the pharaoh's rule over Upper and Lower Egypt."
+        },
+        "throne": {
+          "title": "Tutankhamun's Throne",
+          "period": "New Kingdom, 18th Dynasty",
+          "year": "1332 BCE",
+          "material": "Wood, gold, semi-precious inlays",
+          "dimensions": "65 cm height",
+          "description": "An exquisite example of ancient Egyptian royal furniture, featuring intricate inlays of semi-precious stones. The backrest depicts the pharaoh with his wife Ankhesenamun in a scene of intimate domestic life."
+        },
+        "chariot": {
+          "title": "Royal War Chariot",
+          "period": "New Kingdom, 18th Dynasty",
+          "year": "1332 BCE",
+          "material": "Wood, leather, gilded bronze",
+          "details": "Fully functional, used for hunting and warfare",
+          "description": "An expertly crafted wheeled vehicle demonstrating advanced metallurgical skills. The chariot features gilded bronze decorative elements and leather fittings, revealing the sophistication of ancient Egyptian transportation."
+        },
+        "necklace": {
+          "title": "Royal Pectoral Necklace",
+          "period": "New Kingdom, 18th Dynasty",
+          "year": "1332 BCE",
+          "material": "Gold, lapis lazuli, turquoise, carnelian",
+          "weight": "7 kg",
+          "description": "An elaborate broad collar worn by pharaohs, adorned with symbolic elements representing gods and royal protection. Each stone was carefully selected and positioned according to ancient beliefs."
+        },
+        "sarcophagus": {
+          "title": "Nested Sarcophagi",
+          "period": "New Kingdom, 18th Dynasty",
+          "year": "1332 BCE",
+          "material": "Wood, gold, semi-precious inlays",
+          "layers": "3 anthropomorphic coffins",
+          "description": "A magnificent set of three coffins, each crafted from rare wood materials. The innermost coffin is made almost entirely of solid gold and weighs over 100 kg, showcasing the immense wealth of the pharaoh."
+        },
+        "kohl": {
+          "title": "Ivory Cosmetic Containers",
+          "period": "New Kingdom, 18th Dynasty",
+          "year": "1332 BCE",
+          "material": "Ivory, ebony, semi-precious stones",
+          "collection": "Over 50 cosmetic vessels",
+          "description": "Intricately carved cosmetic containers revealing the sophistication of ancient Egyptian beauty practices. These items show that the pharaoh understood and valued personal grooming and appearance."
+        }
+      }
+    },
+    "historicalTimeline": {
+      "badge": "Journey Through Time",
+      "title": "7,000 Years of Egyptian History",
+      "subtitle": "From the earliest settlements to the Greco-Roman era",
+      "periods": {
+        "predynastic": {
+          "period": "Predynastic Egypt",
+          "dates": "6000 - 3150 BCE",
+          "duration": "2,850 years",
+          "icon": "Pyramid",
+          "description": "The earliest period of human settlement along the Nile Valley. Nomadic hunter-gatherers gradually transitioned to agricultural communities, establishing the foundations of Egyptian civilization.",
+          "highlights": [
+            "Nile Valley settlements",
+            "Agricultural development",
+            "Early pottery making",
+            "Tool innovations",
+            "Trade networks established"
+          ],
+          "achievements": "Development of agriculture, pottery, and early writing systems"
+        },
+        "oldKingdom": {
+          "period": "Old Kingdom (Pyramid Age)",
+          "dates": "3150 - 2181 BCE",
+          "duration": "969 years",
+          "icon": "Pyramid",
+          "description": "The age of pyramid building and centralized pharaonic power. This era saw the construction of the Great Pyramids of Giza and the establishment of Egyptian artistic and architectural standards.",
+          "highlights": [
+            "Great Pyramids built",
+            "Divine kingship established",
+            "Hieroglyphic writing perfected",
+            "Elaborate tomb systems",
+            "Royal court hierarchy"
+          ],
+          "achievements": "Construction of the greatest monuments of the ancient world at Giza"
+        },
+        "middleKingdom": {
+          "period": "Middle Kingdom",
+          "dates": "2055 - 1650 BCE",
+          "duration": "405 years",
+          "icon": "Landmark",
+          "description": "A period of cultural renaissance and stability. Art, literature, and science flourished, while Egypt extended its influence through military campaigns and trade.",
+          "highlights": [
+            "Literary golden age",
+            "Court literature development",
+            "Fine jewelry creation",
+            "Nubian expansion",
+            "Irrigation innovations"
+          ],
+          "achievements": "Classical period of Egyptian art and literature; works of this era are considered timeless masterpieces"
+        },
+        "newKingdom": {
+          "period": "New Kingdom (Imperial Age)",
+          "dates": "1550 - 1070 BCE",
+          "duration": "480 years",
+          "icon": "Crown",
+          "description": "Egypt's most powerful and prosperous era. This period witnessed the reign of legendary pharaohs including Hatshepsut, Thutmose III, and Ramesses II, whose monuments dominated the landscape.",
+          "highlights": [
+            "Tutankhamun's reign",
+            "Ramesses II's magnificence",
+            "Temple construction boom",
+            "Imperial expansion",
+            "Religious transformation"
+          ],
+          "achievements": "Height of Egyptian power and the construction of the most famous temples and monuments"
+        },
+        "ptolemaicGrecoRoman": {
+          "period": "Ptolemaic & Greco-Roman Period",
+          "dates": "332 BCE - 395 CE",
+          "duration": "727 years",
+          "icon": "Gem",
+          "description": "After Alexander the Great's conquest, Greek and Roman cultures merged with Egyptian traditions. The Ptolemaic dynasty ruled Egypt, culminating with Cleopatra VII.",
+          "highlights": [
+            "Alexandrian Library flourished",
+            "Cleopatra's reign",
+            "Fayum portrait tradition",
+            "Greek-Egyptian syncretism",
+            "Roman provincial rule"
+          ],
+          "achievements": "The Fayum mummy portraits represent the finest achievements of this period - a unique blend of Egyptian and Greco-Roman artistic traditions"
+        }
+      }
+    },
+    "architecture": {
+      "badge": "Grand Design",
+      "title": "Architectural Masterpiece",
+      "subtitle": "A modern sanctuary for ancient treasures",
+      "highlights": {
+        "hangingObelisk": {
+          "title": "The Hanging Obelisk",
+          "height": "11 meters",
+          "weight": "280 tons",
+          "engineering": "Suspended without visible support",
+          "description": "An engineering marvel that greets every visitor upon entry. This massive granite obelisk appears to float in mid-air above the atrium floor, accomplishing what ancient Egyptians could only dream of - defying gravity while honoring their architectural legacy."
+        },
+        "grandStaircase": {
+          "title": "The Grand Staircase",
+          "statues": "87 pharaoh and deity statues",
+          "height": "35 meters",
+          "symbolism": "Chronological procession of Egyptian rulers",
+          "description": "A breathtaking architectural element stretching 35 meters tall, featuring statues of all the great pharaohs and deities in chronological order. Walking up this staircase is a journey through Egypt's entire history."
+        },
+        "ramasesesColossus": {
+          "title": "Ramesses II Colossus",
+          "height": "11 meters tall",
+          "weight": "83 tons",
+          "purpose": "Grand entrance statement",
+          "description": "A colossal statue of Ramesses II, one of Egypt's greatest pharaohs, welcomes visitors as they enter the museum. This modern recreation captures the grandeur of the original Karnak temples."
+        },
+        "alabasterFacade": {
+          "title": "Translucent Alabaster Facade",
+          "area": "8,000 square meters",
+          "function": "Natural light filtering",
+          "sustainability": "Reduces energy consumption by 40%",
+          "description": "The museum's distinctive facade features panels of fine alabaster - the same material used in ancient Egyptian temples. These panels filter sunlight naturally, creating an ethereal atmosphere while maintaining optimal lighting for artifact preservation."
+        },
+        "triangularDesign": {
+          "title": "Pyramid-Inspired Triangular Design",
+          "symbolism": "Modern tribute to ancient pyramids",
+          "location": "2 km from Giza Pyramids",
+          "view": "Direct sightline to the Great Pyramids",
+          "description": "The museum's overall triangular footprint echoes the pyramids visible just 2 kilometers away, creating a visual bridge between the ancient and modern achievements of Egyptian civilization."
+        },
+        "atrium": {
+          "title": "The Grand Atrium",
+          "area": "6,000 square meters",
+          "visitors": "Can view hanging obelisk from all heights",
+          "design": "Central gathering and viewing space",
+          "description": "A soaring central space that serves as the heart of the museum, allowing visitors to experience the hanging obelisk from multiple perspectives and levels, creating an unparalleled sense of scale and wonder."
+        }
+      }
+    },
+    "featuredVideos": {
+      "badge": "Watch & Learn",
+      "title": "Explore Through Videos",
+      "subtitle": "Discover museum treasures, architecture, and artifacts in stunning 4K quality",
+      "viewAllVideos": "View All Videos",
+      "videos": [
+        {
+          "id": "fullTour1",
+          "youtubeId": "M3g39UZpjnY",
+          "title": "Complete Grand Egyptian Museum Tour",
+          "description": "Full walkthrough of the entire Grand Egyptian Museum with all galleries and exhibits",
+          "duration": "45:30",
+          "views": "2.4M",
+          "category": "tour"
+        },
+        {
+          "id": "staircase1",
+          "youtubeId": "whwFP85b8QI",
+          "title": "The Grand Staircase Up Close",
+          "description": "Walk through the iconic 35-meter Grand Staircase with 87 pharaoh statues",
+          "duration": "12:15",
+          "views": "1.8M",
+          "category": "tour"
+        },
+        {
+          "id": "obelisk1",
+          "youtubeId": "9ejvrfSPSI0",
+          "title": "The Hanging Obelisk Experience",
+          "description": "View the engineering marvel of the 280-ton suspended obelisk in the main atrium",
+          "duration": "8:45",
+          "views": "1.5M",
+          "category": "documentary"
+        },
+        {
+          "id": "ramesses1",
+          "youtubeId": "-FL-zuHHE-o",
+          "title": "Ramesses II Colossus at the Museum",
+          "description": "Tour of the magnificent 11-meter Ramesses II statue welcoming visitors",
+          "duration": "14:20",
+          "views": "2.1M",
+          "category": "tour"
+        },
+        {
+          "id": "fullTour2",
+          "youtubeId": "lCi0Nuapjuo",
+          "title": "Inside the Grand Egyptian Museum - Part 2",
+          "description": "Extended tour showcasing exhibitions and ancient artifacts from multiple galleries",
+          "duration": "52:10",
+          "views": "3.2M",
+          "category": "tour"
+        },
+        {
+          "id": "staircase2",
+          "youtubeId": "HhAV5iZ4rzo",
+          "title": "Grand Staircase: Step Through Ancient Egypt",
+          "description": "Detailed walkthrough of the Grand Staircase's iconic pharaoh procession",
+          "duration": "10:50",
+          "views": "1.3M",
+          "category": "tour"
+        },
+        {
+          "id": "obelisk2",
+          "youtubeId": "UJVE2BUFLaA",
+          "title": "The Hanging Obelisk: Engineering Marvel",
+          "description": "Explore how this ancient monument was suspended in modern architecture",
+          "duration": "9:30",
+          "views": "980K",
+          "category": "documentary"
+        },
+        {
+          "id": "khufuBoat1",
+          "youtubeId": "uc-V9O61e-Q",
+          "title": "Khufu's Ancient Boat Museum",
+          "description": "Tour of the reconstructed royal solar boat of Pharaoh Khufu in dedicated museum",
+          "duration": "20:45",
+          "views": "2.8M",
+          "category": "exhibition"
+        },
+        {
+          "id": "fullTour3",
+          "youtubeId": "qOR_F7A0Gd8",
+          "title": "Complete Museum Walkthrough - Full Experience",
+          "description": "Comprehensive guide through all major sections and highlights of the Grand Egyptian Museum",
+          "duration": "60:00",
+          "views": "3.8M",
+          "category": "tour"
+        },
+        {
+          "id": "ramesses2",
+          "youtubeId": "6BBjAocNA1k",
+          "title": "Ramesses II: The Great Pharaoh's Legacy",
+          "description": "Explore artifacts and statues dedicated to one of Egypt's greatest rulers",
+          "duration": "18:30",
+          "views": "2.5M",
+          "category": "exhibition"
+        },
+        {
+          "id": "staircase3",
+          "youtubeId": "Lrblq2cjpp4",
+          "title": "Walking the Grand Staircase Experience",
+          "description": "Cinematic tour of the iconic staircase connecting Egypt's ancient dynasties",
+          "duration": "15:20",
+          "views": "1.6M",
+          "category": "tour"
+        },
+        {
+          "id": "khufuBoat2",
+          "youtubeId": "0CAvL4NUboI",
+          "title": "Inside Khufu Boat Museum: The Solar Barque",
+          "description": "Detailed exploration of Pharaoh Khufu's reconstructed ceremonial boat",
+          "duration": "25:40",
+          "views": "2.2M",
+          "category": "exhibition"
+        },
+        {
+          "id": "fullTour4",
+          "youtubeId": "xhArwI0BEEg",
+          "title": "Grand Egyptian Museum Tour: Treasures & Wonders",
+          "description": "In-depth walkthrough of ancient Egyptian treasures and museum architecture",
+          "duration": "48:15",
+          "views": "2.9M",
+          "category": "tour"
+        },
+        {
+          "id": "obelisk3",
+          "youtubeId": "F9onrrfT0jw",
+          "title": "The Hanging Obelisk: Ancient History in Modern Design",
+          "description": "Discover how ancient engineering inspires the museum's contemporary design",
+          "duration": "11:00",
+          "views": "1.2M",
+          "category": "documentary"
+        },
+        {
+          "id": "khufuBoat3",
+          "youtubeId": "keatQALD5AA",
+          "title": "Khufu's Solar Boat: Ancient Egyptian Technology",
+          "description": "Explore the reconstruction of Pharaoh Khufu's ceremonial solar barque",
+          "duration": "22:30",
+          "views": "1.9M",
+          "category": "exhibition"
+        },
+        {
+          "id": "fullTour5",
+          "youtubeId": "Cj00iZMQ4qk",
+          "title": "Ultimate GEM Museum Tour",
+          "description": "Complete exploration of all galleries, exhibits, and architectural marvels",
+          "duration": "55:45",
+          "views": "3.5M",
+          "category": "tour"
+        },
+        {
+          "id": "ramesses3",
+          "youtubeId": "80sKr3dISaM",
+          "title": "Ramesses II Collection Display",
+          "description": "Showcase of artifacts and artwork from the reign of Ramesses II the Great",
+          "duration": "16:50",
+          "views": "2.3M",
+          "category": "exhibition"
+        },
+        {
+          "id": "khufuBoat4",
+          "youtubeId": "cUxq0nk16qA",
+          "title": "The Great Boat of Khufu: Museum Exhibition",
+          "description": "Virtual tour of the ancient pharaoh's ceremonial boat in dedicated museum space",
+          "duration": "19:20",
+          "views": "1.7M",
+          "category": "exhibition"
+        },
+        {
+          "id": "fullTour6",
+          "youtubeId": "jIPAWhx7msc",
+          "title": "Grand Egyptian Museum: Full Navigation Guide",
+          "description": "Complete guide to navigating the museum's galleries and must-see exhibits",
+          "duration": "42:00",
+          "views": "2.6M",
+          "category": "tour"
+        },
+        {
+          "id": "khufuBoat5",
+          "youtubeId": "eBC3ONViMSg",
+          "title": "Khufu Boat Deep Dive: Ancient Architecture",
+          "description": "Detailed analysis of Pharaoh Khufu's solar boat construction and restoration",
+          "duration": "28:15",
+          "views": "2.0M",
+          "category": "exhibition"
+        },
+        {
+          "id": "museum1",
+          "youtubeId": "KQ8ZoywAqgM",
+          "title": "Grand Egyptian Museum Documentary",
+          "description": "Comprehensive documentary about the museum's creation, design, and significance",
+          "duration": "30:40",
+          "views": "3.3M",
+          "category": "documentary"
+        },
+        {
+          "id": "museum2",
+          "youtubeId": "axw36u5-kIg",
+          "title": "The Making of the Grand Egyptian Museum",
+          "description": "Behind-the-scenes look at how this architectural marvel was built and curated",
+          "duration": "35:20",
+          "views": "2.7M",
+          "category": "documentary"
+        }
+      ]
+    },
+    "visitorExperience": {
+      "badge": "Plan Your Experience",
+      "title": "Make the Most of Your Visit",
+      "subtitle": "Expert tips for an unforgettable journey through ancient Egypt",
+      "categories": {
+        "timing": {
+          "title": "Perfect Timing",
+          "tips": [
+            {
+              "heading": "Best Days to Visit",
+              "details": "Weekday mornings (Tuesday-Thursday, 9:00-11:00 AM) are least crowded. First hours after opening provide the best lighting and smallest crowds."
+            },
+            {
+              "heading": "Recommended Duration",
+              "details": "Allow 4-5 hours for a thorough exploration of main galleries. Full day (8+ hours) for enthusiasts wanting to experience every detail."
+            },
+            {
+              "heading": "Seasonal Considerations",
+              "details": "October to April offers pleasant weather. Avoid peak summer (June-August) when temperatures exceed 35Â°C."
+            }
+          ]
+        },
+        "navigationTips": {
+          "title": "Navigation & Planning",
+          "tips": [
+            {
+              "heading": "Recommended Route",
+              "details": "Start with Prehistoric Egypt on the ground level, then ascend chronologically through the dynasties. This creates a natural narrative flow through 7,000 years."
+            },
+            {
+              "heading": "Highlight Priority Stops",
+              "details": "Must-see: Tutankhamun galleries (2-3 hours), The Grand Staircase, The Hanging Obelisk, Ramesses II galleries."
+            },
+            {
+              "heading": "Audio Guide Enhancement",
+              "details": "Available in 10 languages. Provides 5-15 minute commentaries on key artifacts. Highly recommended for deep understanding."
+            }
+          ]
+        },
+        "comfortTips": {
+          "title": "Comfort & Practicality",
+          "tips": [
+            {
+              "heading": "Wear Comfortable Shoes",
+              "details": "Plan for 6-10 km of walking depending on your route. Supportive footwear is essential for all-day exploring."
+            },
+            {
+              "heading": "Bring Essentials",
+              "details": "Water bottle (refill stations available), portable charger, light jacket (air conditioning can be cool), sunglasses for outdoor arrival/departure area."
+            },
+            {
+              "heading": "Pace Yourself",
+              "details": "Take breaks in cafes on each level. The museum's design allows for strategic rest stops with views."
+            }
+          ]
+        },
+        "gainingKnowledge": {
+          "title": "Deepen Your Understanding",
+          "tips": [
+            {
+              "heading": "Guided Tours",
+              "details": "Expert-led 2-hour tours provide context and fascinating details. Photography tours available for enthusiasts."
+            },
+            {
+              "heading": "Interactive Displays",
+              "details": "Digital reconstructions show how artifacts were used. Augmented Reality experiences bring ancient scenes to life."
+            },
+            {
+              "heading": "Conservation Center",
+              "details": "Witness live restoration work. Understand the science and dedication required to preserve these treasures for future generations."
+            }
+          ]
+        },
+        "photography": {
+          "title": "Capture Your Experience",
+          "tips": [
+            {
+              "heading": "Photography Allowed",
+              "details": "Permitted in most galleries without flash. Professional photography permits available for DSLR and mirrorless cameras."
+            },
+            {
+              "heading": "Best Photo Spots",
+              "details": "Hang Obelisk from all levels, Grand Staircase chambers, Tutankhamun galleries, Ramesses II corridors."
+            },
+            {
+              "heading": "Lighting Tips",
+              "details": "Natural light is best in morning hours. Late afternoon provides dramatic shadows in key galleries."
+            }
+          ]
+        },
+        "withFamily": {
+          "title": "Family Visit Guide",
+          "tips": [
+            {
+              "heading": "Children's Museum",
+              "details": "Dedicated interactive museum for ages 5-12. Hands-on activities, mummy wrapping, and pyramid building workshops."
+            },
+            {
+              "heading": "Family-Friendly Route",
+              "details": "Focus on visually impressive items first (colorful items, large statues). Break sessions with activities in children's museum."
+            },
+            {
+              "heading": "Educational Value",
+              "details": "Free family worksheets available at entrance. Scavenger hunt activities engage children while learning."
+            }
+          ]
+        }
+      }
+    },
+    "footer": {
+      "logo": "Grand Egyptian Museum",
+      "tagline": "Grand Egyptian Museum",
+      "description": "The world's largest archaeological museum dedicated to a single civilization",
+      "columns": {
+        "explore": "Explore",
+        "visit": "Visit",
+        "connect": "Connect"
+      },
+      "links": {
+        "about": "Museum Story",
+        "exhibitions": "Museum Journeys",
+        "gallery": "Gallery",
+        "videos": "Videos",
+        "planVisit": "Plan Your Visit",
+        "tickets": "Tickets",
+        "gettingHere": "Getting Here",
+        "accessibility": "Accessibility",
+        "contact": "Contact",
+        "press": "Press",
+        "careers": "Careers",
+        "support": "Support"
+      },
+      "rights": "All rights reserved."
+    },
+    "labels": {
+      "year": "Year",
+      "material": "Material",
+      "details": "Details",
+      "achievement": "Achievement",
+      "dimension": "Dimension",
+      "features": "Features"
+    }
+  },
+  "about": {
+    "hero": {
+      "label": "Museum Story",
+      "title": "Where Ancient Meets Modern",
+      "description": "The Grand Egyptian Museum stands as a testament to human achievement - a bridge between the ancient world and contemporary innovation, dedicated to preserving and sharing the rich tapestry of Egyptian civilization.",
+      "imageAlt": "Grand Egyptian Museum at night"
+    },
+    "stats": {
+      "area": "Square Meters",
+      "artifacts": "Artifacts",
+      "tutItems": "Tutankhamun Items",
+      "years": "Years of History",
+      "yearsBuilding": "Years Building",
+      "galleries": "Galleries"
+    },
+    "architecture": {
+      "label": "Architecture",
+      "title": "Designed to Inspire",
+      "p1": "The museum's architecture is a dialogue between past and present. The triangular facade echoes the pyramids of Giza, while the translucent alabaster facade filters natural light, creating an ethereal atmosphere within.",
+      "p2": "Designed by the Irish firm Heneghan Peng Architects, the building spans 480,000 square meters and includes exhibition halls, conservation centers, a children's museum, and extensive educational facilities.",
+      "highlights": {
+        "obelisk": "Hanging Obelisk",
+        "statues": "Statues on Grand Staircase",
+        "ramesses": "Ramesses II Statue"
+      },
+      "imageAlt": "Museum architecture"
+    },
+    "timeline": {
+      "label": "Our Journey",
+      "title": "Two Decades in the Making",
+      "events": {
+        "visionBegins": {
+          "title": "The Vision Begins",
+          "description": "The Egyptian government announces the ambitious project to build the world's largest archaeological museum."
+        },
+        "foundationLaid": {
+          "title": "Foundation Laid",
+          "description": "Construction begins on the 480,000 square meter site, just 2 kilometers from the Giza Pyramids."
+        },
+        "challenges": {
+          "title": "Challenges & Resilience",
+          "description": "Despite political and economic challenges, work continues with international support and dedication."
+        },
+        "staircase": {
+          "title": "Grand Staircase Unveiled",
+          "description": "The iconic grand staircase is completed, featuring 87 statues of pharaohs and deities."
+        },
+        "tutCollection": {
+          "title": "Tutankhamun Collection",
+          "description": "All 5,398 artifacts from King Tut's tomb are moved to the museum for the first time in history."
+        },
+        "opening": {
+          "title": "Grand Opening",
+          "description": "The museum opens its doors, welcoming visitors to experience 7,000 years of Egyptian civilization."
+        }
+      }
+    },
+    "features": {
+      "label": "What We Offer",
+      "title": "A World-Class Experience",
+      "items": {
+        "sustainable": {
+          "title": "Sustainable Design",
+          "description": "The museum incorporates solar panels, rainwater harvesting, and energy-efficient systems to minimize its environmental footprint."
+        },
+        "conservation": {
+          "title": "State-of-the-Art Conservation",
+          "description": "Advanced laboratories and climate-controlled environments ensure the preservation of delicate artifacts for future generations."
+        },
+        "interactive": {
+          "title": "Interactive Technology",
+          "description": "Digital displays, augmented reality experiences, and immersive installations bring ancient history to life."
+        },
+        "education": {
+          "title": "Educational Programs",
+          "description": "Workshops, lectures, and guided tours designed for all ages, fostering a deeper understanding of Egyptian heritage."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience History?",
+      "text": "Plan your visit to the Grand Egyptian Museum and embark on a journey through 7,000 years of civilization.",
+      "getTickets": "Get Tickets",
+      "planVisit": "Plan Your Visit"
+    }
+  },
+  "exhibitions": {
+    "hero": {
+      "label": "Museum Journeys",
+      "title": "A Living Narrative of Egyptian Civilization",
+      "description": "Move through 50 curated galleries that connect artifacts, architecture, and storytelling into one continuous museum journey across 7,000 years.",
+      "altNames": [
+        "Curated Museum Journey",
+        "Chronicles of Civilization",
+        "The Grand Heritage Route"
+      ],
+      "imageAlt": "Grand Hall"
+    },
+    "featured": {
+      "label": "Signature Experience",
+      "title": "Tutankhamun: The Complete Collection",
+      "description": "For the first time in history, all 5,398 artifacts from King Tutankhamun's tomb are displayed together in a single, immersive experience. Walk through the life, death, and afterlife of the boy king who captured the world's imagination.",
+      "descriptionExtended": "The galleries are arranged as a narrative journey, from courtly life and ritual to burial traditions and rediscovery. Multimedia stations and carefully lit displays reveal the craftsmanship behind each object, from gold inlay to carved cedar.",
+      "highlights": [
+        "Original burial assemblage displayed together",
+        "Contextual storytelling from life to afterlife",
+        "Object-level details on materials and techniques",
+        "Immersive lighting and gallery soundscape"
+      ],
+      "moments": {
+        "goldenThrone": {
+          "caption": "Ceremonial throne with intricate royal iconography",
+          "imageAlt": "Tutankhamun's golden throne"
+        },
+        "tutChariot": {
+          "caption": "One of the king's chariots preserved with remarkable detail",
+          "imageAlt": "Tutankhamun ceremonial chariot"
+        },
+        "egyptianJewelry": {
+          "caption": "Fine royal jewelry illustrating symbolic protection motifs",
+          "imageAlt": "Ancient Egyptian royal jewelry"
+        }
+      },
+      "stats": {
+        "artifacts": "Artifacts",
+        "yearsOld": "Years Old",
+        "galleries": "Galleries"
+      },
+      "cta": "Explore All Halls",
+      "imageAlt": "Tutankhamun's golden mask"
+    },
+    "halls": {
+      "label": "Journey Stops",
+      "title": "Explore The Museum Route",
+      "highlightsLabel": "Highlights",
+      "items": {
+        "tutankhamun": {
+          "title": "Tutankhamun Galleries",
+          "subtitle": "The Complete Collection",
+          "description": "For the first time in history, all 5,398 artifacts from King Tutankhamun's tomb are displayed together. Journey through the boy king's life, death, and afterlife with his legendary golden mask, throne, chariots, and jewelry.",
+          "story": "These galleries unfold in thematic chapters that explain how each object functioned in royal life, ritual performance, and funerary belief.",
+          "highlights": [
+            "Golden Death Mask",
+            "Throne of Tutankhamun",
+            "Nested Coffins",
+            "Royal Chariots"
+          ],
+          "quickFacts": [
+            "Complete collection reunited for the first time",
+            "Displays include ceremonial, military, and domestic objects",
+            "Interpretive media links each artifact to its original context"
+          ],
+          "duration": "2-3 hours",
+          "location": "Upper Level"
+        },
+        "prehistoric": {
+          "title": "Prehistoric Egypt",
+          "subtitle": "The Dawn of Civilization",
+          "description": "Explore Egypt before the pharaohs, from the earliest human settlements along the Nile to the unification of Upper and Lower Egypt. Discover ancient tools, pottery, and the foundations of Egyptian culture.",
+          "story": "Material traces from villages, workshops, and burials reveal how social structure, craft specialization, and symbolic expression emerged over millennia.",
+          "highlights": [
+            "Naqada Artifacts",
+            "Early Pottery",
+            "Predynastic Tools",
+            "Rock Art"
+          ],
+          "quickFacts": [
+            "Chronological layout from early Nile communities to late Predynastic Egypt",
+            "Comparative displays show evolving pottery and stone-tool traditions",
+            "Panels explain the cultural foundations of early kingship"
+          ],
+          "duration": "1 hour",
+          "location": "Ground Level"
+        },
+        "oldKingdom": {
+          "title": "The Old Kingdom",
+          "subtitle": "Age of the Pyramid Builders",
+          "description": "Step into the era when Egypt built its greatest monuments. Marvel at statues of pharaohs, learn about the construction of the pyramids, and discover the daily life of ancient Egyptians.",
+          "story": "Monumental sculpture and tomb reliefs are paired with interpretive diagrams to explain administration, labor, and ideology during the pyramid age.",
+          "highlights": [
+            "Statue of Khafre",
+            "Pyramid Texts",
+            "Royal Sculptures",
+            "Tomb Reliefs"
+          ],
+          "quickFacts": [
+            "Focus on elite and non-elite life in the Memphite region",
+            "Stone-working techniques presented with close-up visual references",
+            "Burial inscriptions contextualized with religious beliefs"
+          ],
+          "duration": "1.5 hours",
+          "location": "Ground Level"
+        },
+        "newKingdom": {
+          "title": "The New Kingdom",
+          "subtitle": "Egypt's Golden Age",
+          "description": "Experience the height of Egyptian power and prosperity. From Hatshepsut to Ramesses II, explore the lives of legendary pharaohs and the magnificent artifacts they left behind.",
+          "story": "Royal monuments, temple programs, and elite burials illustrate how imperial ambition, diplomacy, and religious spectacle shaped the period.",
+          "highlights": [
+            "Hatshepsut Statues",
+            "Ramesses II Colossus",
+            "Royal Mummies",
+            "Temple Reliefs"
+          ],
+          "quickFacts": [
+            "Covers the 18th to 20th dynasties",
+            "Highlights include major state cult imagery and royal portraiture",
+            "Cross-references connect objects to major archaeological sites"
+          ],
+          "duration": "2 hours",
+          "location": "Upper Level"
+        },
+        "grecoRoman": {
+          "title": "Greco-Roman Egypt",
+          "subtitle": "Where Cultures Converge",
+          "description": "Discover the fascinating period when Egyptian traditions blended with Greek and Roman influences. See the famous Fayum mummy portraits and learn about the Ptolemaic dynasty.",
+          "story": "Bilingual texts, painted portraits, and hybrid iconography show how local traditions adapted under Mediterranean political and artistic influence.",
+          "highlights": [
+            "Fayum Portraits",
+            "Ptolemaic Coins",
+            "Alexandrian Art",
+            "Coptic Textiles"
+          ],
+          "quickFacts": [
+            "Tracks artistic transition from Ptolemaic to Roman rule",
+            "Portrait panels reveal changing funerary representation",
+            "Numismatic and textile displays emphasize cultural exchange"
+          ],
+          "duration": "1 hour",
+          "location": "Upper Level"
+        },
+        "conservation": {
+          "title": "Conservation Center",
+          "subtitle": "Preserving the Past",
+          "description": "Go behind the scenes and witness the meticulous work of conservators restoring ancient artifacts. Interactive displays explain the science behind preservation.",
+          "story": "The center presents conservation as an ongoing scientific process, from condition assessment and imaging to stabilization and preventive care.",
+          "highlights": [
+            "Live Restoration",
+            "X-Ray Analysis",
+            "3D Scanning",
+            "Material Studies"
+          ],
+          "quickFacts": [
+            "Explains laboratory workflows used in large museum projects",
+            "Demonstrates non-invasive imaging and analysis methods",
+            "Shows how climate control protects fragile surfaces"
+          ],
+          "duration": "45 minutes",
+          "location": "Lower Level"
+        }
+      }
+    },
+    "details": {
+      "label": "Exhibition Insights",
+      "title": "Context, Craft, and Discovery",
+      "intro": "Beyond labels and dates, this section expands the stories behind the objects, the curatorial choices, and the spatial design of the exhibition route.",
+      "paragraph1": "Each gallery is organized to balance scholarly depth and visitor readability. Introductory panels establish historical context, while focused object labels explain materials, techniques, and symbolic meanings.",
+      "paragraph2": "Lighting and spatial sequencing are designed to guide attention without overwhelming the viewer. Large anchor objects create orientation points, and adjacent cases provide thematic continuity.",
+      "paragraph3": "The result is a layered experience: visitors can follow the narrative quickly, or slow down and examine object-level detail through extended captions and visual aids.",
+      "keyPoints": [
+        "Narrative flow follows chronology and thematic transitions between halls.",
+        "Key objects are paired with focused interpretation for deeper understanding.",
+        "Visual wayfinding helps visitors navigate long routes with minimal friction.",
+        "Conservation notes highlight how preservation decisions shape display."
+      ],
+      "stories": {
+        "atrium": {
+          "title": "Arrival in the Grand Atrium",
+          "text": "The atrium establishes scale, orientation, and atmosphere before visitors enter the chronological galleries.",
+          "imageAlt": "Grand atrium of the exhibition complex"
+        },
+        "staircase": {
+          "title": "The Grand Staircase Sequence",
+          "text": "A sculptural procession of royal monuments builds a visual bridge between major historical periods.",
+          "imageAlt": "Grand staircase with monumental statues"
+        },
+        "goldenThrone": {
+          "title": "Royal Craftsmanship in Focus",
+          "text": "Gold surfaces, fine inlays, and iconographic scenes reveal the technical mastery of court workshops.",
+          "imageAlt": "Golden throne displayed in museum gallery"
+        },
+        "mummyCase": {
+          "title": "Funerary Design and Belief",
+          "text": "Nested coffins and decorated cases illustrate how material, text, and image combined in funerary practice.",
+          "imageAlt": "Decorated mummy case in exhibition hall"
+        }
+      }
+    },
+    "experience": {
+      "label": "Visit In Different Styles",
+      "title": "Choose Your Museum Route",
+      "intro": "Pick the route that matches your pace and interests. Each style offers a different way to understand the museum, from a fast highlights pass to a research-focused deep dive.",
+      "tracks": {
+        "express": {
+          "mode": "Fast Route",
+          "title": "Highlights In 90 Minutes",
+          "summary": "A concise route for visitors with limited time who still want to experience the museum's strongest visual and historical moments.",
+          "duration": "Duration: 1.5 hours",
+          "suitableFor": "Best for: First-time visitors and short schedules",
+          "stops": [
+            "Grand Atrium",
+            "Grand Staircase",
+            "Tutankhamun Highlights",
+            "Main Panorama View"
+          ]
+        },
+        "classic": {
+          "mode": "Balanced Route",
+          "title": "The Essential Museum Experience",
+          "summary": "A balanced route that combines chronological context, iconic objects, and practical rest points for a complete yet comfortable visit.",
+          "duration": "Duration: 3 to 4 hours",
+          "suitableFor": "Best for: Most visitors and family groups",
+          "stops": [
+            "Prehistoric Egypt",
+            "Old Kingdom",
+            "New Kingdom",
+            "Tutankhamun Galleries",
+            "Museum Terrace"
+          ]
+        },
+        "deepDive": {
+          "mode": "Research Route",
+          "title": "Deep Reading Of The Collection",
+          "summary": "A detail-rich route for history enthusiasts who want more interpretation, cross-period comparisons, and conservation-focused context.",
+          "duration": "Duration: 5 to 6 hours",
+          "suitableFor": "Best for: Researchers, enthusiasts, and repeat visits",
+          "stops": [
+            "Chronological Core Halls",
+            "Material & Craft Analysis Points",
+            "Greco-Roman Transition Gallery",
+            "Conservation Center",
+            "Extended Reading Stations"
+          ]
+        }
+      }
+    },
+    "faq": {
+      "label": "Quick Answers",
+      "title": "Frequently Asked Questions",
+      "items": {
+        "tickets": {
+          "q": "Do I need to book tickets in advance?",
+          "a": "Advance booking is strongly recommended for weekends and holidays. Pre-booked tickets also make entry smoother during peak hours."
+        },
+        "family": {
+          "q": "Is this route suitable for families with children?",
+          "a": "Yes. The balanced route is family-friendly, with natural pause points, open circulation zones, and shorter thematic clusters."
+        },
+        "accessibility": {
+          "q": "Can visitors with mobility needs complete the full experience?",
+          "a": "Yes. Elevators, ramps, and accessible pathways connect major galleries. Ask staff for the most convenient route at entry."
+        },
+        "services": {
+          "q": "Where can I find rest areas and visitor services?",
+          "a": "Services are distributed across major nodes of the museum route, including seating zones, cafes, information counters, and restrooms."
+        }
+      }
+    },
+    "tips": {
+      "label": "Plan Your Visit",
+      "title": "Visitor Tips",
+      "items": {
+        "route": {
+          "title": "Recommended Route",
+          "text": "Start with Prehistoric Egypt and follow the chronological path through the galleries for the most immersive experience."
+        },
+        "audio": {
+          "title": "Audio Guides",
+          "text": "Available in 10 languages, our audio guides provide in-depth commentary on key artifacts and exhibitions."
+        },
+        "timing": {
+          "title": "Best Times to Visit",
+          "text": "Weekday mornings are less crowded. Allow at least 4-5 hours to explore the main galleries thoroughly."
+        },
+        "photo": {
+          "title": "Photography",
+          "text": "Photography is permitted in most galleries without flash. Special exhibitions may have restrictions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Begin Your Journey Through History",
+      "text": "Book your tickets now and experience 7,000 years of Egyptian civilization in the world's largest archaeological museum.",
+      "button": "Get Tickets"
+    }
+  },
+  "videos": {
+    "hero": {
+      "label": "Videos",
+      "title": "Experience the Museum",
+      "description": "Watch documentaries, take virtual tours, and go behind the scenes of the Grand Egyptian Museum through our video collection.",
+      "imageAlt": "Museum atrium"
+    },
+    "featured": {
+      "label": "Featured Video"
+    },
+    "views": "views",
+    "categories": {
+      "all": "All Videos",
+      "documentary": "Documentaries",
+      "tour": "Virtual Tours",
+      "exhibition": "Exhibitions"
+    },
+    "player": {
+      "title": "Video Player"
+    },
+    "items": {
+      "fullTour1": {
+        "title": "Complete Grand Egyptian Museum Tour",
+        "description": "Full walkthrough of the entire Grand Egyptian Museum with all galleries and exhibits"
+      },
+      "staircase1": {
+        "title": "The Grand Staircase Up Close",
+        "description": "Walk through the iconic 35-meter Grand Staircase with 87 pharaoh statues"
+      },
+      "obelisk1": {
+        "title": "The Hanging Obelisk Experience",
+        "description": "View the engineering marvel of the 280-ton suspended obelisk in the main atrium"
+      },
+      "ramesses1": {
+        "title": "Ramesses II Colossus at the Museum",
+        "description": "Tour of the magnificent 11-meter Ramesses II statue welcoming visitors"
+      },
+      "fullTour2": {
+        "title": "Inside the Grand Egyptian Museum - Part 2",
+        "description": "Extended tour showcasing exhibitions and ancient artifacts from multiple galleries"
+      },
+      "staircase2": {
+        "title": "Grand Staircase: Step Through Ancient Egypt",
+        "description": "Detailed walkthrough of the Grand Staircase's iconic pharaoh procession"
+      },
+      "obelisk2": {
+        "title": "The Hanging Obelisk: Engineering Marvel",
+        "description": "Explore how this ancient monument was suspended in modern architecture"
+      },
+      "khufuBoat1": {
+        "title": "Khufu's Ancient Boat Museum",
+        "description": "Tour of the reconstructed royal solar boat of Pharaoh Khufu in dedicated museum"
+      },
+      "fullTour3": {
+        "title": "Complete Museum Walkthrough - Full Experience",
+        "description": "Comprehensive guide through all major sections and highlights of the Grand Egyptian Museum"
+      },
+      "ramesses2": {
+        "title": "Ramesses II: The Great Pharaoh's Legacy",
+        "description": "Explore artifacts and statues dedicated to one of Egypt's greatest rulers"
+      },
+      "staircase3": {
+        "title": "Walking the Grand Staircase Experience",
+        "description": "Cinematic tour of the iconic staircase connecting Egypt's ancient dynasties"
+      },
+      "khufuBoat2": {
+        "title": "Inside Khufu Boat Museum: The Solar Barque",
+        "description": "Detailed exploration of Pharaoh Khufu's reconstructed ceremonial boat"
+      },
+      "fullTour4": {
+        "title": "Grand Egyptian Museum Tour: Treasures & Wonders",
+        "description": "In-depth walkthrough of ancient Egyptian treasures and museum architecture"
+      },
+      "obelisk3": {
+        "title": "The Hanging Obelisk: Ancient History in Modern Design",
+        "description": "Discover how ancient engineering inspires the museum's contemporary design"
+      },
+      "khufuBoat3": {
+        "title": "Khufu's Solar Boat: Ancient Egyptian Technology",
+        "description": "Explore the reconstruction of Pharaoh Khufu's ceremonial solar barque"
+      },
+      "fullTour5": {
+        "title": "Ultimate GEM Museum Tour",
+        "description": "Complete exploration of all galleries, exhibits, and architectural marvels"
+      },
+      "ramesses3": {
+        "title": "Ramesses II Collection Display",
+        "description": "Showcase of artifacts and artwork from the reign of Ramesses II the Great"
+      },
+      "khufuBoat4": {
+        "title": "The Great Boat of Khufu: Museum Exhibition",
+        "description": "Virtual tour of the ancient pharaoh's ceremonial boat in dedicated museum space"
+      },
+      "fullTour6": {
+        "title": "Grand Egyptian Museum: Full Navigation Guide",
+        "description": "Complete guide to navigating the museum's galleries and must-see exhibits"
+      },
+      "khufuBoat5": {
+        "title": "Khufu Boat Deep Dive: Ancient Architecture",
+        "description": "Detailed analysis of Pharaoh Khufu's solar boat construction and restoration"
+      },
+      "museum1": {
+        "title": "Grand Egyptian Museum Documentary",
+        "description": "Comprehensive documentary about the museum's creation, design, and significance"
+      },
+      "museum2": {
+        "title": "The Making of the Grand Egyptian Museum",
+        "description": "Behind-the-scenes look at how this architectural marvel was built and curated"
+      }
+    }
+  },
+  "visit": {
+    "hero": {
+      "label": "Plan Your Visit",
+      "title": "Everything You Need to Know",
+      "description": "Prepare for your journey through 7,000 years of Egyptian civilization. Find information on tickets, hours, directions, and more.",
+      "imageAlt": "Museum Entrance"
+    },
+    "quick": {
+      "location": {
+        "title": "Location",
+        "line1": "Alexandria Desert Road",
+        "line2": "Giza, Egypt",
+        "line3": "2 km from the Pyramids"
+      },
+      "hours": {
+        "title": "Opening Hours",
+        "line1": "Daily: 09:00 - 20:00",
+        "line2": "Saturday: 09:00 - 22:00",
+        "line3": "Last entry: 2 hours before closing"
+      },
+      "bestTime": {
+        "title": "Best Time to Visit",
+        "line1": "Weekday mornings",
+        "line2": "are less crowded",
+        "line3": "Allow 4-5 hours"
+      }
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "extended": "Extended hours",
+      "notice": "Last entry is 2 hours before closing. Galleries begin closing 30 minutes before the museum closes.",
+      "days": {
+        "sunday": "Sunday",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday"
+      }
+    },
+    "prices": {
+      "title": "Ticket Prices",
+      "cta": "Buy Tickets Online",
+      "items": {
+        "adults": {
+          "type": "Adults",
+          "note": "Ages 18-59"
+        },
+        "students": {
+          "type": "Students",
+          "note": "Valid ID required"
+        },
+        "children": {
+          "type": "Children",
+          "note": "Under 6 years"
+        },
+        "seniors": {
+          "type": "Seniors",
+          "note": "Ages 60+"
+        },
+        "residents": {
+          "type": "Egyptian Residents",
+          "note": "National ID required"
+        },
+        "groups": {
+          "type": "Groups (10+)",
+          "note": "Per person"
+        }
+      }
+    },
+    "directions": {
+      "label": "Directions",
+      "title": "Getting There",
+      "items": {
+        "car": {
+          "title": "By Car",
+          "description": "The museum is located on the Alexandria Desert Road, just 2 km from the Giza Pyramids. Free parking is available for visitors."
+        },
+        "bus": {
+          "title": "By Bus",
+          "description": "Public buses 355 and 357 run from Tahrir Square to the museum. The journey takes approximately 45 minutes."
+        },
+        "metro": {
+          "title": "By Metro",
+          "description": "Take Line 2 to Giza Station, then a short taxi ride or bus to the museum. Total journey time is about 1 hour."
+        }
+      }
+    },
+    "map": {
+      "title": "Interactive Museum Map",
+      "subtitle": "Select a route style, then click any zone to view corridor guidance, nearby services, and movement details.",
+      "a11yLabel": "Interactive interior route map for the museum",
+      "routeSummaryTitle": "Current Route Sequence",
+      "floorsLabel": "Floor Filter",
+      "artifactsTitle": "Featured Artifacts",
+      "navigationTipsTitle": "Navigation Tips",
+      "floorOverviewTitle": "Floor-by-Floor Overview",
+      "minuteUnit": "min",
+      "zoneUnit": "zones",
+      "floors": {
+        "all": "All Floors",
+        "ground": "Ground Floor",
+        "upper": "Upper Floor",
+        "lower": "Lower Floor"
+      },
+      "floorDescriptions": {
+        "ground": "Primary orientation, entry validation, and major transition axes.",
+        "upper": "Main royal and chronological galleries with high artifact density.",
+        "lower": "Conservation-linked educational corridors and calmer movement."
+      },
+      "routes": {
+        "highlights": {
+          "name": "Highlights Route",
+          "duration": "Approx. 90 minutes"
+        },
+        "family": {
+          "name": "Family Route",
+          "duration": "Approx. 2.5 to 3 hours"
+        },
+        "accessible": {
+          "name": "Accessible Route",
+          "duration": "Approx. 2 to 2.5 hours"
+        }
+      },
+      "zones": {
+        "arrival": {
+          "short": "Arrival",
+          "title": "Arrival Plaza",
+          "description": "Primary entry zone with ticket validation, information points, and orientation displays before entering the main circulation axis.",
+          "level": "Ground Level",
+          "walkTime": "2-4 min to next node",
+          "crowd": "Peak: Moderate",
+          "corridors": [
+            "Wide central corridor designed for first-contact wayfinding.",
+            "Direct visual connection to atrium navigation to reduce confusion.",
+            "Queue spillover managed through side holding lanes."
+          ],
+          "artifacts": [
+            "Hanging Obelisk axis view",
+            "Introductory royal statuary cluster",
+            "Architectural threshold inscriptions"
+          ],
+          "tips": [
+            "Complete orientation before moving into the atrium node.",
+            "Use side lanes if entry queues become dense.",
+            "Keep ticket and map access ready at this stage."
+          ],
+          "services": [
+            "Info Desk",
+            "Ticket Scan",
+            "Restrooms",
+            "Mobility Support"
+          ],
+          "imageAlt": "Museum arrival plaza and entrance zone"
+        },
+        "atrium": {
+          "short": "Atrium",
+          "title": "Grand Atrium Node",
+          "description": "Main orientation node where visitors choose between chronological galleries, staircase ascent, and service corridors.",
+          "level": "Ground Level",
+          "walkTime": "3-5 min to next node",
+          "crowd": "Peak: High",
+          "corridors": [
+            "Radial corridors branch toward major galleries and vertical movement.",
+            "Clear sightlines support quick orientation for first-time visitors.",
+            "Digital signage updates route density in real time."
+          ],
+          "artifacts": [
+            "Grand atrium monumental composition",
+            "Large-scale sculptural anchor pieces",
+            "Primary ceremonial axis"
+          ],
+          "tips": [
+            "If visiting with family, pause here before choosing your branch.",
+            "Use digital signs to compare crowd levels across routes.",
+            "This is the best point to switch from quick to extended route."
+          ],
+          "services": [
+            "Help Point",
+            "Cafe Access",
+            "Elevators",
+            "Family Rest Area"
+          ],
+          "imageAlt": "Grand atrium with circulation routes"
+        },
+        "staircase": {
+          "short": "Staircase",
+          "title": "Grand Staircase Spine",
+          "description": "Vertical transition corridor linking major narrative levels with staged sculpture views and pause platforms.",
+          "level": "Transition Spine",
+          "walkTime": "4-6 min to next node",
+          "crowd": "Peak: High",
+          "corridors": [
+            "Dual-flow movement path separates ascent and descent directionally.",
+            "Rest niches reduce bottlenecks during photo-heavy stops.",
+            "Alternative elevator path mirrors the same destination logic."
+          ],
+          "artifacts": [
+            "Grand Staircase kingly procession",
+            "Monumental dynastic statue sequence",
+            "Elevated panoramic historical framing"
+          ],
+          "tips": [
+            "Keep right on ascent during peak movement windows.",
+            "Use pause niches for photos instead of central flow lanes.",
+            "Switch to lift route if your group needs lower pace."
+          ],
+          "services": [
+            "View Decks",
+            "Photo Points",
+            "Lift Alternative"
+          ],
+          "imageAlt": "Grand staircase movement spine"
+        },
+        "tutankhamun": {
+          "short": "Tut",
+          "title": "Tutankhamun Galleries",
+          "description": "High-demand galleries with controlled sequencing and thematic transitions from royal life to funerary context.",
+          "level": "Upper Level",
+          "walkTime": "5-8 min inside zone",
+          "crowd": "Peak: Very High",
+          "corridors": [
+            "One-way sequence minimizes backtracking in dense areas.",
+            "Buffer corridors handle queue pressure near signature objects.",
+            "Exit links reconnect smoothly to broader upper-level circulation."
+          ],
+          "artifacts": [
+            "Tutankhamun's Golden Mask",
+            "Tutankhamun Golden Throne",
+            "Royal ceremonial chariot assemblage"
+          ],
+          "tips": [
+            "Follow one-way signage for the smoothest artifact progression.",
+            "Avoid pausing in narrow neck points near signature displays.",
+            "Use buffer corridor pauses for deeper reading of object labels."
+          ],
+          "services": [
+            "Audio Guide Point",
+            "Seated Pause Area",
+            "Interpretive Screens"
+          ],
+          "imageAlt": "Tutankhamun gallery display corridor"
+        },
+        "newKingdom": {
+          "short": "New Kingdom",
+          "title": "New Kingdom Corridor Cluster",
+          "description": "Connected halls with wider transitional corridors to distribute movement between major royal collections.",
+          "level": "Upper Level",
+          "walkTime": "4-7 min between halls",
+          "crowd": "Peak: Moderate",
+          "corridors": [
+            "Cross-links allow flexible pacing without losing chronology.",
+            "Directional markers separate thematic branches clearly.",
+            "Intermediate service pockets support longer stays."
+          ],
+          "artifacts": [
+            "Royal funerary collections",
+            "Temple relief narrative panels",
+            "Dynastic ritual object sets"
+          ],
+          "tips": [
+            "Use branch markers to maintain chronology while exploring side galleries.",
+            "Choose cross-links when one branch becomes crowded.",
+            "Plan a short break before transitioning toward later periods."
+          ],
+          "services": [
+            "Benches",
+            "Water Point",
+            "Wayfinding Screens"
+          ],
+          "imageAlt": "New Kingdom halls and transitions"
+        },
+        "grecoRoman": {
+          "short": "Greco-Roman",
+          "title": "Greco-Roman Wing",
+          "description": "Later-period galleries with calmer circulation and clear loops back toward exits and secondary service areas.",
+          "level": "Upper Level",
+          "walkTime": "3-5 min to exit nodes",
+          "crowd": "Peak: Low to Moderate",
+          "corridors": [
+            "Looped corridor geometry supports non-linear exploration.",
+            "Short branch corridors connect thematic sub-collections.",
+            "Return route to atrium is marked through consistent node coding."
+          ],
+          "artifacts": [
+            "Fayum portrait selections",
+            "Greco-Roman funerary composites",
+            "Late-period textile and coin showcases"
+          ],
+          "tips": [
+            "Use loop geometry to revisit any case without losing direction.",
+            "Branch corridors are ideal for quieter close viewing.",
+            "Node coding here provides one of the easiest return paths."
+          ],
+          "services": [
+            "Quiet Zone",
+            "Reading Corner",
+            "Restrooms"
+          ],
+          "imageAlt": "Greco-Roman wing circulation loop"
+        },
+        "conservation": {
+          "short": "Conservation",
+          "title": "Conservation Access Corridor",
+          "description": "Educational corridor near conservation spaces with slower visitor flow and interpretive stops about preservation processes.",
+          "level": "Lower Connector",
+          "walkTime": "4-6 min to linked halls",
+          "crowd": "Peak: Low",
+          "corridors": [
+            "Wider observation pockets allow stops without blocking circulation.",
+            "Low-density route works well for accessible pacing.",
+            "Direct return path reconnects to main hall backbone."
+          ],
+          "artifacts": [
+            "Conservation process demonstrations",
+            "Material testing reference examples",
+            "Before-and-after restoration documentation"
+          ],
+          "tips": [
+            "Take advantage of low density for detailed interpretive reading.",
+            "Use this route if your group prefers slower, quieter navigation.",
+            "Rejoin the main spine through the marked connector corridor."
+          ],
+          "services": [
+            "Lab Viewing Windows",
+            "Accessible Seating",
+            "Staff Assistance"
+          ],
+          "imageAlt": "Conservation corridor and educational displays"
+        }
+      }
+    },
+    "corridors": {
+      "title": "Corridor Intelligence",
+      "intro": "Use these practical movement rules to navigate the museum smoothly, avoid congestion, and choose the right route rhythm for your group.",
+      "items": {
+        "flow": {
+          "title": "Flow Dynamics",
+          "description": "Major movement peaks usually occur at transition nodes. Choose staggered entry timing for faster progression.",
+          "points": [
+            "Peak node monitoring",
+            "Staggered timing",
+            "Reduced bottlenecks"
+          ]
+        },
+        "navigation": {
+          "title": "Wayfinding Logic",
+          "description": "Follow node-based orientation: each main hub connects clearly to 2-3 major destinations with directional consistency.",
+          "points": [
+            "Node-to-node navigation",
+            "Consistent signage",
+            "Quick reroute options"
+          ]
+        },
+        "accessibility": {
+          "title": "Inclusive Paths",
+          "description": "Accessible alternatives mirror core routes and maintain narrative continuity with minimal detours.",
+          "points": [
+            "Lift-parallel routes",
+            "Gentle gradient options",
+            "Priority assistance points"
+          ]
+        },
+        "services": {
+          "title": "Service Coverage",
+          "description": "Amenities are distributed near key nodes so visitors can pause, recover, and continue without leaving the main route.",
+          "points": [
+            "Rest zones",
+            "Hydration points",
+            "Info and support desks"
+          ]
+        }
+      }
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "text": "The Grand Egyptian Museum is committed to providing an inclusive experience for all visitors. Our facilities and services ensure everyone can enjoy the wonders of ancient Egypt.",
+      "imageAlt": "Museum interior",
+      "list": [
+        "Wheelchair accessible entrances and elevators",
+        "Wheelchairs available for loan (free)",
+        "Accessible restrooms on all floors",
+        "Tactile maps and audio guides",
+        "Sign language tours (advance booking required)",
+        "Service animals welcome"
+      ]
+    },
+    "tips": {
+      "label": "Helpful Tips",
+      "title": "Make the Most of Your Visit",
+      "items": {
+        "bestTime": {
+          "title": "Best Time to Visit",
+          "description": "Weekday mornings are less crowded. Allow at least 4-5 hours for the main galleries."
+        },
+        "bring": {
+          "title": "What to Bring",
+          "description": "Comfortable walking shoes, water bottle, and a light jacket (air conditioning can be cool)."
+        },
+        "photo": {
+          "title": "Photography",
+          "description": "Allowed in most areas without flash. Tripods and professional equipment require permits."
+        },
+        "food": {
+          "title": "Food & Drink",
+          "description": "Several cafes and restaurants are available inside. Outside food is not permitted in galleries."
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email"
+    }
+  },
+  "tickets": {
+    "hero": {
+      "label": "Tickets",
+      "title": "Book Your Visit",
+      "description": "Secure your entry to the world's largest archaeological museum. Choose your date, time, and ticket options.",
+      "imageAlt": "Tickets"
+    },
+    "steps": {
+      "selectTickets": "Select Tickets",
+      "chooseDate": "Choose Date",
+      "checkout": "Checkout"
+    },
+    "sections": {
+      "selectTickets": "Select Tickets",
+      "addOns": "Add-ons (Optional)",
+      "selectDate": "Select Date",
+      "selectTime": "Select Time"
+    },
+    "types": {
+      "adult": {
+        "name": "Adult",
+        "description": "Ages 18-59"
+      },
+      "student": {
+        "name": "Student",
+        "description": "Valid student ID required"
+      },
+      "senior": {
+        "name": "Senior",
+        "description": "Ages 60+"
+      },
+      "child": {
+        "name": "Child",
+        "description": "Under 6 years (free)"
+      },
+      "egyptian": {
+        "name": "Egyptian Resident",
+        "description": "National ID required"
+      }
+    },
+    "free": "Free",
+    "actions": {
+      "decrease": "Decrease quantity",
+      "increase": "Increase quantity"
+    },
+    "addOns": {
+      "audio": {
+        "name": "Audio Guide",
+        "description": "Available in 10 languages"
+      },
+      "guide": {
+        "name": "Guided Tour",
+        "description": "2-hour expert-led tour"
+      },
+      "photography": {
+        "name": "Photography Permit",
+        "description": "Professional camera allowed"
+      },
+      "parking": {
+        "name": "Parking",
+        "description": "All-day parking"
+      }
+    },
+    "payment": {
+      "title": "Payment",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "firstNamePlaceholder": "John",
+      "lastNamePlaceholder": "Doe",
+      "emailPlaceholder": "john@example.com",
+      "phonePlaceholder": "+20 1XX XXX XXXX",
+      "secure": "Secure payment processing"
+    },
+    "summary": {
+      "title": "Booking Summary",
+      "empty": "No tickets selected",
+      "total": "Total"
+    },
+    "info": {
+      "timedEntry": {
+        "title": "Timed Entry",
+        "text": "Please arrive within your selected time slot. Entry is guaranteed for 30 minutes after your selected time."
+      },
+      "groupBookings": {
+        "title": "Group Bookings",
+        "text": "For groups of 10 or more, enjoy discounted rates and optional guided tours. Contact us for arrangements."
+      },
+      "cancellation": {
+        "title": "Free Cancellation",
+        "text": "Full refund available up to 24 hours before your visit. Reschedule anytime at no extra cost."
+      }
+    }
+  },
+  "gallery": {
+    "hero": {
+      "label": "The Collection",
+      "title": "100,000 Artifacts",
+      "description": "Explore the world's largest collection of ancient Egyptian artifacts, including the complete treasures of Tutankhamun, displayed together for the first time in history.",
+      "imageAlt": "Gallery"
+    },
+    "stats": {
+      "totalArtifacts": "Total Artifacts",
+      "tutItems": "Tutankhamun Items",
+      "galleries": "Galleries",
+      "years": "Years of History"
+    },
+    "categories": {
+      "all": "All Collection",
+      "treasures": "Royal Treasures",
+      "artifacts": "Artifacts",
+      "architecture": "Architecture",
+      "landscapes": "Landscapes"
+    },
+    "badges": {
+      "royalTreasure": "Royal Treasure"
+    },
+    "details": {
+      "date": "Date",
+      "dynasty": "Dynasty",
+      "material": "Material"
+    }
+  }
+}

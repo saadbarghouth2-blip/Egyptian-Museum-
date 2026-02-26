@@ -1,0 +1,823 @@
+/* Tickets Page Styles */
+.tickets-page {
+  position: relative;
+  background:
+    radial-gradient(circle at 88% 10%, rgba(212, 175, 55, 0.1), transparent 32%),
+    radial-gradient(circle at 10% 86%, rgba(163, 115, 63, 0.1), transparent 38%),
+    var(--bg-primary);
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.tickets-hero {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.tickets-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tickets-hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tickets-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 11, 12, 0.6);
+}
+
+.tickets-hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 700px;
+  padding: 0 2rem;
+}
+
+.tickets-hero-label {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.tickets-hero-content h1 {
+  margin-bottom: 1.5rem;
+}
+
+.tickets-hero-description {
+  font-size: clamp(16px, 1.4vw, 20px);
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+/* Booking Section */
+.booking-section {
+  padding: 6vh 6vw 10vh;
+  background: var(--bg-primary);
+}
+
+.booking-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Booking Steps */
+.booking-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.step-number {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--bg-secondary);
+  border: 1px solid var(--hairline);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Sora', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.step.active .step-number {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-primary);
+  box-shadow: 0 0 0 8px rgba(212, 175, 55, 0.14);
+}
+
+.step.completed .step-number {
+  background: transparent;
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.step-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.step.active .step-label {
+  color: var(--text-primary);
+}
+
+.step-divider {
+  width: 40px;
+  height: 1px;
+  background: var(--hairline);
+}
+
+/* Booking Panel */
+.booking-panel {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 2rem;
+  background: linear-gradient(165deg, rgba(18, 22, 28, 0.94), rgba(13, 16, 21, 0.82));
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.booking-selection {
+  padding: 2.5rem;
+}
+
+.selection-section {
+  margin-bottom: 2.5rem;
+}
+
+.selection-section:last-child {
+  margin-bottom: 0;
+}
+
+.selection-title {
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.selection-title svg {
+  color: var(--accent);
+}
+
+/* Ticket Types */
+.ticket-types {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ticket-type-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--hairline);
+  transition: border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  --mx: 50%;
+  --my: 50%;
+}
+
+.ticket-type-row::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--mx) var(--my), rgba(212, 175, 55, 0.16), transparent 46%);
+  opacity: 0;
+  transition: opacity 0.28s ease;
+  pointer-events: none;
+}
+
+.ticket-type-row:hover {
+  border-color: var(--accent);
+}
+
+.ticket-type-row:hover::before {
+  opacity: 1;
+}
+
+.ticket-type-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+}
+
+.ticket-type-name {
+  font-family: 'Sora', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.ticket-type-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.ticket-type-price {
+  font-family: 'Sora', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-right: 1.5rem;
+  min-width: 80px;
+  text-align: right;
+}
+
+/* Quantity Selector */
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.quantity-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid var(--hairline);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.quantity-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.quantity-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.quantity-value {
+  font-family: 'Sora', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  min-width: 24px;
+  text-align: center;
+}
+
+/* Add-ons */
+.addons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.addon-card {
+  position: relative;
+  padding: 1.25rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--hairline);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  width: 100%;
+  color: inherit;
+  --mx: 50%;
+  --my: 50%;
+  overflow: hidden;
+}
+
+.addon-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--mx) var(--my), rgba(212, 175, 55, 0.18), transparent 45%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.addon-card:hover {
+  border-color: var(--accent);
+}
+
+.addon-card:hover::before {
+  opacity: 1;
+}
+
+.addon-card.selected {
+  border-color: var(--accent);
+  background: rgba(201, 162, 39, 0.05);
+}
+
+.addon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.addon-name {
+  font-family: 'Sora', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.addon-price {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--accent);
+}
+
+.addon-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.addon-check {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--accent);
+}
+
+/* Date & Time */
+.date-picker {
+  margin-bottom: 2rem;
+}
+
+.date-input {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--hairline);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.date-input:focus {
+  border-color: var(--accent);
+}
+
+.time-slots {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.75rem;
+}
+
+.time-slot {
+  padding: 0.875rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--hairline);
+  color: var(--text-secondary);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  --mx: 50%;
+  --my: 50%;
+}
+
+.time-slot::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--mx) var(--my), rgba(212, 175, 55, 0.22), transparent 45%);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.time-slot:hover {
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+
+.time-slot:hover::before {
+  opacity: 1;
+}
+
+.time-slot.selected {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-primary);
+}
+
+/* Payment Form */
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.form-group input {
+  padding: 1rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--hairline);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: var(--accent);
+}
+
+.form-group input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.5;
+}
+
+.payment-security {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: rgba(201, 162, 39, 0.05);
+  border: 1px solid rgba(201, 162, 39, 0.2);
+}
+
+.payment-security svg {
+  color: var(--accent);
+}
+
+.payment-security span {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* Booking Summary */
+.booking-summary {
+  background: var(--bg-primary);
+  padding: 2.5rem;
+  border-left: 1px solid var(--hairline);
+}
+
+.summary-title {
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.summary-progress {
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  margin-bottom: 1.35rem;
+}
+
+.summary-progress-fill {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-origin: left center;
+  background: linear-gradient(90deg, #9f7809, #d4af37, #f3dd8d);
+}
+
+.summary-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.summary-item-name {
+  color: var(--text-secondary);
+}
+
+.summary-item-price {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.summary-empty {
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--hairline);
+  margin-bottom: 2rem;
+}
+
+.total-label {
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.total-price {
+  font-family: 'Sora', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.summary-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn-secondary {
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 1px solid var(--hairline);
+  color: var(--text-secondary);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  border-color: var(--text-primary);
+  color: var(--text-primary);
+}
+
+.summary-actions .btn-gold:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Info Section */
+.info-section {
+  padding: 8vh 6vw;
+  background: var(--bg-secondary);
+}
+
+.info-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.ticket-info-card {
+  background: var(--bg-primary);
+  border: 1px solid var(--hairline);
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  --mx: 50%;
+  --my: 50%;
+}
+
+.ticket-info-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--mx) var(--my), rgba(212, 175, 55, 0.15), transparent 45%);
+  opacity: 0;
+  transition: opacity 0.28s ease;
+  pointer-events: none;
+}
+
+.ticket-info-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.ticket-info-card:hover::before {
+  opacity: 1;
+}
+
+.ticket-info-card .info-card-icon {
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.ticket-info-card h3 {
+  font-family: 'Sora', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.ticket-info-card p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .booking-panel {
+    grid-template-columns: 1fr;
+  }
+  
+  .booking-summary {
+    border-left: none;
+    border-top: 1px solid var(--hairline);
+  }
+  
+  .addons-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .time-slots {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .info-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking-steps {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .step-divider {
+    width: 1px;
+    height: 20px;
+  }
+  
+  .step-label {
+    display: none;
+  }
+  
+  .ticket-type-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .ticket-type-price {
+    margin-right: 0;
+    text-align: left;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .time-slots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile refinements */
+@media (max-width: 768px) {
+  .tickets-page .tickets-hero {
+    height: auto;
+    min-height: 56svh;
+    padding: 6.5rem 1rem 2rem;
+  }
+
+  .tickets-page .tickets-hero-content {
+    padding: 0 0.25rem;
+  }
+
+  .tickets-page .booking-section,
+  .tickets-page .info-section {
+    padding: 64px 1rem;
+  }
+
+  .tickets-page .booking-selection,
+  .tickets-page .booking-summary {
+    padding: 1.25rem;
+  }
+
+  .tickets-page .selection-section {
+    margin-bottom: 1.75rem;
+  }
+
+  .tickets-page .ticket-type-row {
+    padding: 1rem;
+  }
+
+  .tickets-page .ticket-type-price {
+    margin-right: 0;
+    min-width: 0;
+  }
+
+  .tickets-page .quantity-selector {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .tickets-page .time-slot {
+    padding: 0.75rem;
+    font-size: 12px;
+  }
+
+  .tickets-page .summary-total {
+    padding: 1rem 0;
+  }
+
+  .tickets-page .total-price {
+    font-size: 22px;
+  }
+
+  .tickets-page .ticket-info-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tickets-page .booking-steps {
+    align-items: flex-start;
+  }
+
+  .tickets-page .step {
+    width: 100%;
+  }
+
+  .tickets-page .step-divider {
+    display: none;
+  }
+
+  .tickets-page .step-number {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+  }
+
+  .tickets-page .addons-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tickets-page .summary-actions .btn-gold,
+  .tickets-page .summary-actions .btn-secondary {
+    width: 100%;
+  }
+}

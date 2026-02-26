@@ -1,0 +1,125 @@
+.museum-hero-3d {
+  position: absolute;
+  inset: -10%;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+  opacity: 0.75;
+  mix-blend-mode: screen;
+  perspective: 900px;
+}
+
+.museum-hero-3d__vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(closest-side, rgba(212, 175, 55, 0.06), transparent 65%);
+  filter: blur(10px);
+  opacity: 0.9;
+}
+
+.museum-shape {
+  --rx: 60deg;
+  --ry: 0deg;
+  --rz: 0deg;
+  --dx: 18px;
+  --dy: 14px;
+  --dur: 12s;
+  --del: 0s;
+
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 0) rotateX(var(--rx)) rotateY(var(--ry)) rotateZ(var(--rz));
+  animation: museum-float var(--dur) ease-in-out infinite;
+  animation-delay: var(--del);
+  will-change: transform;
+  filter: drop-shadow(0 0 30px rgba(212, 175, 55, 0.18));
+}
+
+.museum-shape::before,
+.museum-shape::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+}
+
+.museum-shape::before {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.95), rgba(244, 208, 63, 0.22));
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  transform: translateZ(18px);
+}
+
+.museum-shape::after {
+  background: linear-gradient(135deg, rgba(10, 10, 11, 0.14), rgba(10, 10, 11, 0));
+  border: 1px solid rgba(212, 175, 55, 0.12);
+  transform: translateZ(-18px);
+}
+
+.museum-shape--pyramid {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.museum-shape--pyramid::before,
+.museum-shape--pyramid::after {
+  border-radius: 0;
+}
+
+.museum-shape--obelisk {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 10%, 100% 100%, 0% 100%, 0% 10%);
+}
+
+.museum-shape--obelisk::before,
+.museum-shape--obelisk::after {
+  border-radius: 12px;
+}
+
+.museum-shape--tablet::before {
+  background:
+    linear-gradient(135deg, rgba(212, 175, 55, 0.92), rgba(244, 208, 63, 0.18)),
+    repeating-linear-gradient(90deg, rgba(10, 10, 11, 0.18), rgba(10, 10, 11, 0.18) 2px, transparent 2px, transparent 10px);
+}
+
+.museum-shape--shard {
+  clip-path: polygon(10% 5%, 88% 0%, 100% 20%, 72% 100%, 5% 90%, 0% 40%);
+}
+
+.museum-shape--shard::before,
+.museum-shape--shard::after {
+  border-radius: 10px;
+}
+
+.museum-shape--ring::before,
+.museum-shape--ring::after {
+  border-radius: 999px;
+}
+
+.museum-shape--ring::before {
+  background: radial-gradient(circle at 30% 30%, rgba(244, 208, 63, 0.24), transparent 60%);
+  border: 2px solid rgba(212, 175, 55, 0.6);
+}
+
+.museum-shape--ring::after {
+  background: transparent;
+  border: 2px solid rgba(212, 175, 55, 0.14);
+}
+
+@keyframes museum-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(var(--rx)) rotateY(var(--ry)) rotateZ(var(--rz));
+  }
+  50% {
+    transform:
+      translate3d(var(--dx), var(--dy), 60px)
+      rotateX(calc(var(--rx) + 10deg))
+      rotateY(calc(var(--ry) + 16deg))
+      rotateZ(calc(var(--rz) + 8deg));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .museum-hero-3d {
+    display: none;
+  }
+}
+

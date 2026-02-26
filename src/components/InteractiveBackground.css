@@ -1,0 +1,185 @@
+.interactive-background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.interactive-background__mesh,
+.interactive-background__beam,
+.interactive-background__motif,
+.interactive-background__grain {
+  position: absolute;
+  inset: 0;
+}
+
+.interactive-background__mesh {
+  background:
+    radial-gradient(circle at 16% 18%, rgba(213, 170, 88, 0.25), transparent 45%),
+    radial-gradient(circle at 82% 14%, rgba(167, 122, 58, 0.18), transparent 42%),
+    radial-gradient(circle at 40% 86%, rgba(212, 175, 55, 0.2), transparent 52%),
+    linear-gradient(160deg, #1a120d 0%, #2a1f15 48%, #20170f 100%);
+  animation: ambient-drift 20s ease-in-out infinite alternate;
+}
+
+.interactive-background__beam {
+  background:
+    radial-gradient(circle at var(--pointer-x, 50%) var(--pointer-y, 50%), rgba(250, 218, 122, 0.17), transparent 35%),
+    linear-gradient(to bottom, rgba(255, 239, 204, 0.06), transparent 34%);
+  transition: background-position 0.35s ease;
+}
+
+.interactive-background__motif {
+  opacity: 0.2;
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cg fill='none' stroke='%23f0cd69' stroke-opacity='.34' stroke-width='1.15'%3E%3Cpath d='M24 194L64 120L104 194Z'/%3E%3Crect x='138' y='84' width='24' height='110' rx='2'/%3E%3Cpath d='M150 62L164 84H136Z'/%3E%3Ccircle cx='58' cy='56' r='16'/%3E%3Cpath d='M44 56h28M58 42v28'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 220px 220px;
+  animation: motif-shift 26s linear infinite;
+}
+
+.interactive-background__orbs {
+  position: absolute;
+  inset: -20%;
+}
+
+.interactive-background__orb {
+  position: absolute;
+  border-radius: 999px;
+  mix-blend-mode: screen;
+  filter: blur(1px);
+  opacity: 0.6;
+  animation: orb-float var(--duration, 12s) ease-in-out infinite;
+}
+
+.interactive-background__orb::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle at 30% 30%, rgba(255, 242, 181, 0.8), rgba(201, 162, 39, 0.12) 65%, transparent 100%);
+}
+
+.interactive-background__orb--1 {
+  width: 260px;
+  height: 260px;
+  top: 8%;
+  left: -4%;
+  --duration: 16s;
+}
+
+.interactive-background__orb--2 {
+  width: 180px;
+  height: 180px;
+  top: 20%;
+  right: 10%;
+  --duration: 12s;
+}
+
+.interactive-background__orb--3 {
+  width: 140px;
+  height: 140px;
+  top: 65%;
+  left: 12%;
+  --duration: 14s;
+}
+
+.interactive-background__orb--4 {
+  width: 220px;
+  height: 220px;
+  bottom: -5%;
+  right: -4%;
+  --duration: 18s;
+}
+
+.interactive-background__orb--5 {
+  width: 120px;
+  height: 120px;
+  top: 52%;
+  right: 36%;
+  --duration: 11s;
+}
+
+.interactive-background__orb--6 {
+  width: 90px;
+  height: 90px;
+  top: 12%;
+  right: 42%;
+  --duration: 9s;
+}
+
+.interactive-background__orb--7 {
+  width: 160px;
+  height: 160px;
+  bottom: 18%;
+  left: 42%;
+  --duration: 13s;
+}
+
+.interactive-background__grain {
+  opacity: 0.05;
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.8'/%3E%3C/svg%3E");
+  animation: grain-shift 9s steps(7) infinite;
+}
+
+@keyframes ambient-drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    transform: translate3d(0, -1.5%, 0) scale(1.04);
+  }
+}
+
+@keyframes orb-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(18px, -24px, 0);
+  }
+}
+
+@keyframes grain-shift {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-10%, 6%);
+  }
+  50% {
+    transform: translate(8%, -4%);
+  }
+  75% {
+    transform: translate(-4%, -8%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes motif-shift {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 220px 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .interactive-background__orb {
+    opacity: 0.38;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .interactive-background__mesh,
+  .interactive-background__orb,
+  .interactive-background__motif,
+  .interactive-background__grain {
+    animation: none;
+  }
+}

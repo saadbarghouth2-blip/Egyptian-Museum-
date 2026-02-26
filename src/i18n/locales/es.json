@@ -1,0 +1,25 @@
+{
+  "common": {
+    "language": "Idioma",
+    "search": "Buscar",
+    "tickets": "Entradas",
+    "bookNow": "Reservar",
+    "learnMore": "Saber m\u00e1s",
+    "showLess": "Mostrar menos",
+    "back": "Atr\u00e1s",
+    "continue": "Continuar",
+    "completeBooking": "Completar reserva",
+    "bookingConfirmed": "\u00a1Reserva confirmada!"
+  },
+  "nav": {
+    "logoMain": "Grand Egyptian",
+    "logoSub": "Museum",
+    "home": "Inicio",
+    "about": "Acerca de",
+    "exhibitions": "Exposiciones",
+    "gallery": "Galer\u00eda",
+    "videos": "Videos",
+    "atlas": "Atlas del museo",
+    "visit": "Visita"
+  }
+}

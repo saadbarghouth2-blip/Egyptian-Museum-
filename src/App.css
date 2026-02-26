@@ -1,0 +1,375 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Kufi+Arabic:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg-primary: #1b130d;
+  --bg-secondary: #261b12;
+  --bg-card: #322518;
+  --bg-card-soft: rgba(50, 37, 24, 0.72);
+  --accent: #d4af37;
+  --accent-light: #f2d778;
+  --accent-dark: #ab8107;
+  --text-primary: #f6f4f0;
+  --text-secondary: #c8bea9;
+  --text-muted: #9e8f79;
+  --hairline: rgba(255, 233, 189, 0.18);
+  --gradient-gold: linear-gradient(120deg, #a97806 0%, #d4af37 38%, #fff0b8 50%, #d4af37 62%, #a97806 100%);
+  --shadow-gold: 0 14px 45px rgba(212, 175, 55, 0.26);
+  --pointer-x: 50%;
+  --pointer-y: 50%;
+}
+
+.home-page,
+.about-page,
+.atlas-page,
+.exhibitions-page,
+.gallery-page,
+.videos-page,
+.visit-page,
+.tickets-page {
+  --section-divider: rgba(255, 229, 180, 0.12);
+  --section-glow-a: rgba(212, 175, 55, 0.08);
+  --section-glow-b: rgba(120, 147, 255, 0.07);
+}
+
+.about-page {
+  --section-glow-a: rgba(212, 175, 55, 0.09);
+  --section-glow-b: rgba(120, 147, 255, 0.1);
+}
+
+.atlas-page {
+  --section-glow-a: rgba(212, 175, 55, 0.1);
+  --section-glow-b: rgba(104, 133, 189, 0.09);
+}
+
+.exhibitions-page {
+  --section-glow-a: rgba(212, 175, 55, 0.1);
+  --section-glow-b: rgba(173, 124, 74, 0.09);
+}
+
+.gallery-page {
+  --section-glow-a: rgba(120, 147, 255, 0.1);
+  --section-glow-b: rgba(212, 175, 55, 0.07);
+}
+
+.videos-page {
+  --section-glow-a: rgba(212, 175, 55, 0.09);
+  --section-glow-b: rgba(120, 147, 255, 0.11);
+}
+
+.visit-page {
+  --section-glow-a: rgba(212, 175, 55, 0.09);
+  --section-glow-b: rgba(93, 141, 186, 0.1);
+}
+
+.tickets-page {
+  --section-glow-a: rgba(212, 175, 55, 0.1);
+  --section-glow-b: rgba(167, 122, 74, 0.08);
+}
+
+.home-page > section,
+.about-page > section,
+.atlas-page > section,
+.exhibitions-page > section,
+.gallery-page > section,
+.videos-page > section,
+.visit-page > section,
+.tickets-page > section {
+  border-top: 1px solid var(--section-divider);
+}
+
+.home-page > section:first-of-type,
+.about-page > section:first-of-type,
+.atlas-page > section:first-of-type,
+.exhibitions-page > section:first-of-type,
+.gallery-page > section:first-of-type,
+.videos-page > section:first-of-type,
+.visit-page > section:first-of-type,
+.tickets-page > section:first-of-type {
+  border-top: none;
+}
+
+.home-page > section:nth-of-type(odd),
+.about-page > section:nth-of-type(odd),
+.atlas-page > section:nth-of-type(odd),
+.exhibitions-page > section:nth-of-type(odd),
+.gallery-page > section:nth-of-type(odd),
+.videos-page > section:nth-of-type(odd),
+.visit-page > section:nth-of-type(odd),
+.tickets-page > section:nth-of-type(odd) {
+  box-shadow: inset 0 72px 90px -90px var(--section-glow-a);
+}
+
+.home-page > section:nth-of-type(even),
+.about-page > section:nth-of-type(even),
+.atlas-page > section:nth-of-type(even),
+.exhibitions-page > section:nth-of-type(even),
+.gallery-page > section:nth-of-type(even),
+.videos-page > section:nth-of-type(even),
+.visit-page > section:nth-of-type(even),
+.tickets-page > section:nth-of-type(even) {
+  box-shadow: inset 0 72px 90px -90px var(--section-glow-b);
+}
+
+:is(.home-page, .about-page, .atlas-page, .exhibitions-page, .gallery-page, .videos-page, .visit-page, .tickets-page)
+  :is(.stat-card, .feature-card, .hall-card, .tip-card, .tip-card-large, .info-card, .ticket-card, .ticket-info-card, .video-card, .atlas-fact-card, .atlas-zone-card, .atlas-route-card, .atlas-video-card, .gallery-item, .quick-link-card, .highlight-card, .info-card-large, .artifact-card, .architecture-card, .experience-card) {
+  border-radius: clamp(12px, 1.2vw, 20px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(circle at var(--pointer-x) var(--pointer-y), rgba(212, 175, 55, 0.11), transparent 36%),
+    radial-gradient(circle at 20% 14%, rgba(180, 124, 54, 0.08), transparent 34%);
+  transition: background-position 0.2s ease;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+.rtl {
+  direction: rtl;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.ltr {
+  direction: ltr;
+  font-family: 'Outfit', sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  position: relative;
+  isolation: isolate;
+}
+
+.app > *:not(.navigation):not(.tickets-float-button):not(.mobile-menu):not(.interactive-background) {
+  position: relative;
+  z-index: 1;
+}
+
+.app > .navigation,
+.app > .tickets-float-button,
+.app > .mobile-menu {
+  position: fixed;
+  z-index: 1200;
+}
+
+.app > .interactive-background {
+  position: fixed;
+  z-index: 0;
+}
+
+:is(.home-page, .about-page, .atlas-page, .exhibitions-page, .gallery-page, .videos-page, .visit-page, .tickets-page) {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+}
+
+.rtl h1,
+.rtl h2,
+.rtl h3,
+.rtl h4,
+.rtl h5,
+.rtl h6 {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  letter-spacing: 0;
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+a,
+button {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.headline-xl {
+  font-size: clamp(38px, 6vw, 78px);
+  line-height: 1.05;
+}
+
+.headline-lg {
+  font-size: clamp(30px, 4vw, 52px);
+  line-height: 1.12;
+}
+
+.headline-md {
+  font-size: clamp(24px, 2.5vw, 36px);
+  line-height: 1.2;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 1rem 2.1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  border-color: rgba(212, 175, 55, 0.52);
+  color: var(--accent-light);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2b1f15;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #9a7410, #d4af37, #f4d03f);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #b68916, #f0ca56, #ffe199);
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.32);
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  html,
+  body,
+  #root {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-padding-top: 86px;
+  }
+
+  .app {
+    overflow-x: hidden;
+  }
+
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  :is(.home-page, .about-page, .atlas-page, .exhibitions-page, .gallery-page, .videos-page, .visit-page, .tickets-page) {
+    overflow-x: clip;
+    padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+  }
+
+  :is(.home-page, .about-page, .atlas-page, .exhibitions-page, .gallery-page, .videos-page, .visit-page, .tickets-page) > section {
+    scroll-margin-top: 86px;
+  }
+
+  :is(.home-page, .about-page, .atlas-page, .exhibitions-page, .gallery-page, .videos-page, .visit-page, .tickets-page)
+    :is(img, video, iframe, canvas, svg) {
+    max-width: 100%;
+  }
+
+  :is(.home-page, .about-page, .atlas-page, .exhibitions-page, .gallery-page, .videos-page, .visit-page, .tickets-page)
+    :is(input, select, textarea) {
+    font-size: 16px;
+  }
+
+  :is(.home-page, .about-page, .atlas-page, .exhibitions-page, .gallery-page, .videos-page, .visit-page, .tickets-page)
+    :is(.btn-primary, .btn-gold, .btn-outline, .btn-secondary) {
+    min-height: 44px;
+    max-width: 100%;
+    touch-action: manipulation;
+  }
+
+  :is(.home-page, .about-page, .atlas-page, .exhibitions-page, .gallery-page, .videos-page, .visit-page, .tickets-page)
+    :is(.hero-buttons, .atlas-hero-actions, .atlas-cta-actions, .about-cta-buttons, .visit-info-actions, .summary-actions)
+    :is(.btn-gold, .btn-outline, .btn-primary, .btn-secondary) {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .headline-xl {
+    line-height: 1.1;
+  }
+
+  .headline-lg {
+    line-height: 1.15;
+  }
+
+  .btn-primary {
+    min-height: 44px;
+    padding: 0.85rem 1.2rem;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+  }
+
+  .mono {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+  }
+}
+
+@media (max-width: 480px) {
+  :is(.home-page, .about-page, .atlas-page, .exhibitions-page, .gallery-page, .videos-page, .visit-page, .tickets-page) {
+    padding-bottom: calc(4.6rem + env(safe-area-inset-bottom));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

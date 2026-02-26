@@ -1,0 +1,468 @@
+/* Enhanced Background Patterns with Egyptian Artifacts */
+
+/* SVG Pattern for Archaeological Symbols */
+@supports (background: url('data:image/svg+xml')) {
+  :root {
+    --artifact-pyramid: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"%3E%3Cpath d="M50 10 L90 90 L10 90 Z" stroke="%23D4AF37" stroke-width="2" fill="none" opacity="0.1"/%3E%3C/svg%3E');
+    --artifact-obelisk: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 100"%3E%3Crect x="20" y="10" width="20" height="70" stroke="%23D4AF37" stroke-width="1.5" fill="none" opacity="0.1"/%3E%3Cpolygon points="10,80 50,80 30,95" stroke="%23D4AF37" stroke-width="1.5" fill="none" opacity="0.1"/%3E%3C/svg%3E');
+    --artifact-sphinx: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80"%3E%3Cellipse cx="50" cy="40" rx="35" ry="25" stroke="%23D4AF37" stroke-width="1.5" fill="none" opacity="0.1"/%3E%3Ccircle cx="35" cy="30" r="8" stroke="%23D4AF37" stroke-width="1" fill="none" opacity="0.1"/%3E%3Ccircle cx="65" cy="30" r="8" stroke="%23D4AF37" stroke-width="1" fill="none" opacity="0.1"/%3E%3C/svg%3E');
+    --artifact-scarab: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"%3E%3Ccircle cx="25" cy="25" r="15" stroke="%23D4AF37" stroke-width="1" fill="none" opacity="0.1"/%3E%3Cpath d="M15 25 Q25 15 35 25" stroke="%23D4AF37" stroke-width="1" fill="none" opacity="0.1"/%3E%3C/svg%3E');
+    --artifact-cartouche: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"%3E%3Crect x="10" y="5" width="60" height="30" rx="5" stroke="%23D4AF37" stroke-width="1.5" fill="none" opacity="0.1"/%3E%3Ccircle cx="15" cy="20" r="3" stroke="%23D4AF37" stroke-width="1" fill="none" opacity="0.1"/%3E%3C/svg%3E');
+    --artifact-ankh: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 60"%3E%3Ccircle cx="20" cy="15" r="10" stroke="%23D4AF37" stroke-width="1" fill="none" opacity="0.1"/%3E%3Crect x="15" y="25" width="10" height="30" stroke="%23D4AF37" stroke-width="1" fill="none" opacity="0.1"/%3E%3Cline x1="10" y1="28" x2="30" y2="28" stroke="%23D4AF37" stroke-width="1" opacity="0.1"/%3E%3C/svg%3E');
+    --artifact-compass: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"%3E%3Ccircle cx="30" cy="30" r="25" stroke="%23D4AF37" stroke-width="1.5" fill="none" opacity="0.1"/%3E%3Cpolygon points="30,8 38,22 30,18 22,22" stroke="%23D4AF37" stroke-width="1" fill="none" opacity="0.1"/%3E%3Cline x1="30" y1="8" x2="30" y2="15" stroke="%23D4AF37" stroke-width="1" opacity="0.1"/%3E%3Cline x1="30" y1="45" x2="30" y2="52" stroke="%23D4AF37" stroke-width="1" opacity="0.1"/%3E%3C/svg%3E');
+    --artifact-route: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80"%3E%3Cpath d="M10 60 C30 20, 60 20, 80 50 S110 70,110 20" stroke="%23D4AF37" stroke-width="2" fill="none" opacity="0.08"/%3E%3Ccircle cx="10" cy="60" r="3" fill="%23D4AF37" opacity="0.08"/%3E%3Ccircle cx="110" cy="20" r="3" fill="%23D4AF37" opacity="0.08"/%3E%3C/svg%3E');
+  }
+}
+
+/* Home Page Enhanced Background */
+.home-page {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(212, 175, 55, 0.04) 0%, rgba(212, 175, 55, 0.02) 100%),
+    radial-gradient(circle at 78% 4%, rgba(212, 175, 55, 0.14), transparent 25%),
+    radial-gradient(circle at 12% 32%, rgba(120, 147, 255, 0.12), transparent 28%),
+    var(--bg-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.home-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    var(--artifact-pyramid),
+    var(--artifact-obelisk),
+    var(--artifact-scarab),
+    var(--artifact-ankh);
+  background-size: 200px 200px, 150px 300px, 100px 100px, 120px 180px;
+  background-position: 0% 0%, 80% 10%, 20% 60%, 70% 50%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Videos Page Enhanced Background */
+.videos-page {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(212, 175, 55, 0.04) 0%, rgba(212, 175, 55, 0.02) 100%),
+    radial-gradient(circle at 85% 15%, rgba(212, 175, 55, 0.1), transparent 30%),
+    radial-gradient(circle at 15% 80%, rgba(120, 147, 255, 0.08), transparent 35%),
+    var(--bg-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.videos-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    var(--artifact-obelisk),
+    var(--artifact-cartouche),
+    var(--artifact-sphinx),
+    var(--artifact-pyramid);
+  background-size: 180px 350px, 160px 80px, 250px 200px, 220px 220px;
+  background-position: 10% 20%, 75% 60%, 65% 10%, 15% 70%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.videos-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* About Page Enhanced Background */
+.about-page {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(212, 175, 55, 0.04) 0%, rgba(212, 175, 55, 0.02) 100%),
+    radial-gradient(circle at 20% 25%, rgba(212, 175, 55, 0.12), transparent 25%),
+    radial-gradient(circle at 85% 70%, rgba(120, 147, 255, 0.1), transparent 30%),
+    var(--bg-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.about-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    var(--artifact-sphinx),
+    var(--artifact-ankh),
+    var(--artifact-scarab),
+    var(--artifact-pyramid),
+    var(--artifact-route);
+  background-size: 280px 200px, 140px 210px, 120px 120px, 200px 200px, 220px 150px;
+  background-position: 75% 30%, 5% 70%, 50% 45%, 30% 10%, 62% 78%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Exhibitions Page Enhanced Background */
+.exhibitions-page {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(212, 175, 55, 0.04) 0%, rgba(212, 175, 55, 0.02) 100%),
+    radial-gradient(circle at 70% 35%, rgba(212, 175, 55, 0.1), transparent 28%),
+    radial-gradient(circle at 25% 65%, rgba(120, 147, 255, 0.08), transparent 32%),
+    var(--bg-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.exhibitions-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    var(--artifact-cartouche),
+    var(--artifact-obelisk),
+    var(--artifact-ankh),
+    var(--artifact-scarab);
+  background-size: 180px 90px, 160px 320px, 130px 200px, 110px 110px;
+  background-position: 60% 25%, 10% 50%, 75% 70%, 40% 20%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.exhibitions-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Visit Page Enhanced Background */
+.visit-page {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(212, 175, 55, 0.04) 0%, rgba(212, 175, 55, 0.02) 100%),
+    radial-gradient(circle at 30% 40%, rgba(212, 175, 55, 0.1), transparent 26%),
+    radial-gradient(circle at 80% 70%, rgba(120, 147, 255, 0.08), transparent 30%),
+    var(--bg-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.visit-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    var(--artifact-pyramid),
+    var(--artifact-cartouche),
+    var(--artifact-ankh);
+  background-size: 200px 200px, 170px 85px, 140px 210px;
+  background-position: 25% 15%, 50% 70%, 10% 50%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.visit-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Tickets Page Enhanced Background */
+.tickets-page {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(212, 175, 55, 0.04) 0%, rgba(212, 175, 55, 0.02) 100%),
+    radial-gradient(circle at 75% 25%, rgba(212, 175, 55, 0.11), transparent 27%),
+    radial-gradient(circle at 20% 75%, rgba(120, 147, 255, 0.09), transparent 31%),
+    var(--bg-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.tickets-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    var(--artifact-cartouche),
+    var(--artifact-pyramid),
+    var(--artifact-ankh);
+  background-size: 180px 90px, 210px 210px, 140px 200px;
+  background-position: 55% 20%, 20% 65%, 80% 50%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tickets-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Atlas Page Enhanced Background */
+.atlas-page {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(212, 175, 55, 0.04) 0%, rgba(212, 175, 55, 0.02) 100%),
+    radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.1), transparent 29%),
+    radial-gradient(circle at 15% 20%, rgba(120, 147, 255, 0.08), transparent 28%),
+    var(--bg-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.atlas-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    var(--artifact-obelisk),
+    var(--artifact-scarab),
+    var(--artifact-pyramid);
+  background-size: 170px 340px, 130px 130px, 190px 190px;
+  background-position: 40% 10%, 70% 60%, 15% 40%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.atlas-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Gallery Page Enhanced Background */
+.gallery-page {
+  position: relative;
+  background:
+    linear-gradient(135deg, rgba(212, 175, 55, 0.04) 0%, rgba(212, 175, 55, 0.02) 100%),
+    radial-gradient(circle at 80% 45%, rgba(212, 175, 55, 0.1), transparent 27%),
+    radial-gradient(circle at 35% 75%, rgba(120, 147, 255, 0.08), transparent 30%),
+    var(--bg-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.gallery-page::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    var(--artifact-sphinx),
+    var(--artifact-cartouche),
+    var(--artifact-ankh);
+  background-size: 260px 180px, 160px 80px, 130px 190px;
+  background-position: 30% 30%, 70% 10%, 15% 60%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.gallery-page > * {
+  position: relative;
+  z-index: 1;
+}
+@keyframes float-artifact {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.02;
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+    opacity: 0.05;
+  }
+}
+
+.home-page::after,
+.videos-page::after,
+.about-page::after,
+.exhibitions-page::after,
+.visit-page::after,
+.tickets-page::after,
+.atlas-page::after,
+.gallery-page::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--artifact-pyramid);
+  background-size: 300px 300px;
+  background-position: center;
+  background-repeat: repeat;
+  animation: float-artifact 15s ease-in-out infinite;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about-page::after {
+  background-image: var(--artifact-compass), var(--artifact-route);
+  background-size: 260px 260px, 230px 150px;
+  background-position: 18% 26%, 78% 62%;
+  animation-duration: 19s;
+  opacity: 0.015;
+}
+
+/* Hero Section with Artifact Borders */
+.hero-video-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    repeating-linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0px, transparent 50px),
+    repeating-linear-gradient(0deg, rgba(212, 175, 55, 0.1) 0px, transparent 50px);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Section Watermark Backgrounds */
+section {
+  position: relative;
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: var(--artifact-pyramid);
+  background-size: 400px 400px;
+  background-attachment: local;
+  opacity: 0.008;
+  pointer-events: none;
+}
+
+/* Decorative Corner Elements */
+.artifacts-section::before,
+.timeline-section::before,
+.architecture-section::before,
+.experience-section::before,
+.visit-planner-section::before,
+.milestones-gallery-section::before {
+  background-image: var(--artifact-scarab) !important;
+}
+
+.featured-videos-section::before,
+.featured-section::before {
+  background-image: var(--artifact-cartouche) !important;
+}
+
+.highlights-section::before {
+  background-image: var(--artifact-sphinx) !important;
+}
+
+.visitor-modes-section::before {
+  background-image: var(--artifact-compass) !important;
+}
+
+/* Glowing Border Effects */
+.featured-container,
+.featured-video {
+  position: relative;
+  background: linear-gradient(135deg,
+    rgba(212, 175, 55, 0.05) 0%,
+    transparent 50%,
+    rgba(120, 147, 255, 0.03) 100%);
+}
+
+/* Museum Gallery Feel */
+.video-card,
+.artifact-card,
+.architecture-card,
+.experience-card {
+  background: linear-gradient(135deg,
+    rgba(212, 175, 55, 0.03) 0%,
+    rgba(10, 12, 15, 0) 50%);
+}
+
+/* Responsive artifact sizes */
+@media (max-width: 768px) {
+  .home-page::before {
+    background-size: 150px 150px, 120px 250px, 80px 80px, 100px 150px;
+  }
+
+  .videos-page::before {
+    background-size: 140px 300px, 130px 65px, 200px 160px, 170px 170px;
+  }
+
+  section::before {
+    background-size: 300px 300px;
+    opacity: 0.005;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-page::before,
+  .videos-page::before,
+  .about-page::before,
+  .exhibitions-page::before {
+    opacity: 0.015;
+  }
+}
